@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRN&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES CRNS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MKTR&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES MKTRS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
-        <source>&amp;About Chronos Core</source>
-        <translation>&amp;Sobre Chronos Core</translation>
+        <source>&amp;About Makeator Core</source>
+        <translation>&amp;Sobre Makeator Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
-        <source>About Chronos Core</source>
-        <translation>Sobre Chronos Core</translation>
+        <source>About Makeator Core</source>
+        <translation>Sobre Makeator Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Chronos Core.</source>
-        <translation>Benvingut a Chronos Core.</translation>
+        <source>Welcome to Makeator Core.</source>
+        <translation>Benvingut a Makeator Core.</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1147,8 +1147,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1307,10 +1307,10 @@
     </message>
     </context>
 <context>
-    <name>ZCrnControlDialog</name>
+    <name>ZMktrControlDialog</name>
     </context>
 <context>
-    <name>chronos-core</name>
+    <name>makeator-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

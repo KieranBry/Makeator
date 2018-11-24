@@ -1,9 +1,9 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef CHRONOS_ZEROCOIN_H
-#define CHRONOS_ZEROCOIN_H
+#ifndef MAKEATOR_ZEROCOIN_H
+#define MAKEATOR_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -190,4 +190,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //CHRONOS_ZEROCOIN_H
+#endif //MAKEATOR_ZEROCOIN_H

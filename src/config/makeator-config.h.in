@@ -1,8 +1,8 @@
-/* src/config/chronos-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/makeator-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef CRN_CONFIG_H
+#ifndef MKTR_CONFIG_H
 
-#define CRN_CONFIG_H
+#define MKTR_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD
@@ -358,4 +358,4 @@
 /* Define for large files, on AIX-style hosts. */
 #undef _LARGE_FILES
 
-#endif //CRN_CONFIG_H
+#endif //MKTR_CONFIG_H

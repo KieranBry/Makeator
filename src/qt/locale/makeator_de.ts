@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie Chronos überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie Makeator überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie Chronos empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie Makeator empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre Chronos-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Chronos überweisen.</translation>
+        <source>These are your Makeator addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre Makeator-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Makeator überweisen.</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre Chronos-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Makeator addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre Makeator-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRNs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer CRNs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>Makeator will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MKTRs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer MKTRs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRN&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre CRNs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MKTR&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre MKTRs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine Chronos Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a Makeator Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine Makeator Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Chronos Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Makeator Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Chronos Adresse besitzt</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Makeator Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Die Chronos Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Die Makeator Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Chronos-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Makeator-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
-        <source>Send coins to a Chronos address</source>
-        <translation>An eine Chronos-Adresse überweisen</translation>
+        <source>Send coins to a Makeator address</source>
+        <translation>An eine Makeator-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and chronos: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und chronos: URIs)</translation>
+        <source>Request payments (generates QR codes and makeator: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und makeator: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Privatsphäre</translation>
     </message>
     <message>
-        <source>Privacy Action for zCRN and Obfuscation</source>
-        <translation>Privatsphäre Aktion für zCRN und Verschleierung</translation>
+        <source>Privacy Action for zMKTR and Obfuscation</source>
+        <translation>Privatsphäre Aktion für zMKTR und Verschleierung</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About Chronos Core</source>
-        <translation>Über.Chronos Core</translation>
+        <source>&amp;About Makeator Core</source>
+        <translation>Über.Makeator Core</translation>
     </message>
     <message>
-        <source>Show information about Chronos Core</source>
-        <translation>Zeigt Informationen über Chronos Core</translation>
+        <source>Show information about Makeator Core</source>
+        <translation>Zeigt Informationen über Makeator Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Chronos</source>
-        <translation>Konfiguration von Chronos verändern</translation>
+        <source>Modify configuration options for Makeator</source>
+        <translation>Konfiguration von Makeator verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your Chronos addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer Chronos-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your Makeator addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer Makeator-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten Chronos-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified Makeator addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten Makeator-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a Chronos: URI or payment request</source>
-        <translation>Öffne eine Chronos: URI or Zahlungsanfrage</translation>
+        <source>Open a Makeator: URI or payment request</source>
+        <translation>Öffne eine Makeator: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Blockchain Betrachter Fenster</translation>
     </message>
     <message>
-        <source>Show the Chronos Core help message to get a list with possible Chronos command-line options</source>
-        <translation>Zeige die Chronos-Core Hilfe, um mögliche Chronos Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <source>Show the Makeator Core help message to get a list with possible Makeator command-line options</source>
+        <translation>Zeige die Makeator-Core Hilfe, um mögliche Makeator Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
-        <source>Chronos Core client</source>
-        <translation>Chronos Core Client</translation>
+        <source>Makeator Core client</source>
+        <translation>Makeator Core Client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Chronos network</source>
-        <translation><numerusform>%n aktive Verbindung zum Chronos Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Chronos Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to Makeator network</source>
+        <translation><numerusform>%n aktive Verbindung zum Makeator Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Makeator Netzwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -848,8 +848,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chronos.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "chronos.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (makeator.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "makeator.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -1137,8 +1137,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Chronos address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige Chronos-Adresse.</translation>
+        <source>The entered address "%1" is not a valid Makeator address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige Makeator-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1183,16 +1183,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About Chronos Core</source>
-        <translation>Über Chronos Core</translation>
+        <source>About Makeator Core</source>
+        <translation>Über Makeator Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1238,16 +1238,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to Chronos Core.</source>
-        <translation>Willkommen zu Chronos Core.</translation>
+        <source>Welcome to Makeator Core.</source>
+        <translation>Willkommen zu Makeator Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Chronos Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Chronos Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where Makeator Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie Makeator Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>Chronos Core will download and store a copy of the Chronos block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Chronos Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>Makeator Core will download and store a copy of the Makeator block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Makeator Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1258,8 +1258,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1396,12 +1396,12 @@ Adresse: %4</translation>
         <translation>Zieladresse eingeben</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Chronos addresses after it matures.
-To Add: enter percentage to give and Chronos address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Makeator addresses after it matures.
+To Add: enter percentage to give and Makeator address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen Chronos-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die Chronos-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen Makeator-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die Makeator-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1539,48 +1539,48 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Bitte den gewünschten Privatsphäre Level auswählen.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 CRN</source>
-        <translation>2 separate Masternodes verwenden um bis zu 10000 CRN zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 MKTR</source>
+        <translation>2 separate Masternodes verwenden um bis zu 10000 MKTR zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 CRN</source>
-        <translation>8 separate Masternodes verwenden um bis zu 10000 CRN zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 MKTR</source>
+        <translation>8 separate Masternodes verwenden um bis zu 10000 MKTR zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16 separate Masternodes verwenden</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRN to anonymize 10000 CRN</source>
-        <translation>Diese Option ist die schnellst und kostet ungefähr ~0.025 CRN um 10000 CRN zu anonymisieren </translation>
+        <source>This option is the quickest and will cost about ~0.025 MKTR to anonymize 10000 MKTR</source>
+        <translation>Diese Option ist die schnellst und kostet ungefähr ~0.025 MKTR um 10000 MKTR zu anonymisieren </translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRN to anonymize 10000 CRN</source>
-        <translation>Diese Option ist angemessen schnell und kostet ungefähr  0.05 CRN um 10000 CRN zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 MKTR to anonymize 10000 MKTR</source>
+        <translation>Diese Option ist angemessen schnell und kostet ungefähr  0.05 MKTR um 10000 MKTR zu anonymisieren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Diese Option ist die langsamste und sicherste Option. Die Verwendung maximaler Anonymisierung kostet</translation>
     </message>
     <message>
-        <source>0.1 CRN per 10000 CRN you anonymize.</source>
-        <translation>0.1 CRN per 10000 CRN die anonymisiert werden.</translation>
+        <source>0.1 MKTR per 10000 MKTR you anonymize.</source>
+        <translation>0.1 MKTR per 10000 MKTR die anonymisiert werden.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Verschleierungskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Chronos's configuration screen.</source>
-        <translation>Verschleierung erfolgreich auf normal gesetzt (%1 und 2 Runden). Sie können dies jederzeit in den Chronoss Konfigurationen ändern.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Makeator's configuration screen.</source>
+        <translation>Verschleierung erfolgreich auf normal gesetzt (%1 und 2 Runden). Sie können dies jederzeit in den Makeators Konfigurationen ändern.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Chronos's configuration screen.</source>
-        <translation>Verschleierung erfolgreich auf hohen gesetzt (%1 und 8 Runden). Sie können dies jederzeit in den Chronoss Konfigurationen ändern.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Makeator's configuration screen.</source>
+        <translation>Verschleierung erfolgreich auf hohen gesetzt (%1 und 8 Runden). Sie können dies jederzeit in den Makeators Konfigurationen ändern.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Chronos's configuration screen.</source>
-        <translation>Verschleierung erfolgreich auf maximal gesetzt (%1 und 16 Runden). Sie können dies jederzeit in den Chronoss Konfigurationen ändern.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Makeator's configuration screen.</source>
+        <translation>Verschleierung erfolgreich auf maximal gesetzt (%1 und 16 Runden). Sie können dies jederzeit in den Makeators Konfigurationen ändern.</translation>
     </message>
 </context>
 <context>
@@ -1641,8 +1641,8 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Wenn Sie das Ausgeben von unbestätigten Wechselgeld deaktivieren, so kann das Wechselgeld von einer Transaktion &lt;br/&gt;nicht verwendet werden, bis mindestens eine Bestätigung vorliegt.&lt;br/&gt;Dies hat auch Auswirkungen auf ihre Bilanzberechnung.</translation>
     </message>
     <message>
-        <source>Automatically open the Chronos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisches öffnen des Chronos-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
+        <source>Automatically open the Makeator client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisches öffnen des Makeator-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1661,12 +1661,12 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Experte</translation>
     </message>
     <message>
-        <source>Automatically start Chronos after logging in to the system.</source>
-        <translation>Chronos automatisch nach dem Login starten.</translation>
+        <source>Automatically start Makeator after logging in to the system.</source>
+        <translation>Makeator automatisch nach dem Login starten.</translation>
     </message>
     <message>
-        <source>&amp;Start Chronos on system login</source>
-        <translation>Chronos automatisch beim System Login &amp;starten.</translation>
+        <source>&amp;Start Makeator on system login</source>
+        <translation>Makeator automatisch beim System Login &amp;starten.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1693,38 +1693,38 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>&amp;Netzwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Chronos.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Makeator.</source>
         <translation>Die Sprache der Benutzeroberflächekann hier gesetzt werden. Diese Einstellung wird nach einem Neustart realisiert.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/chronos-project/chronos-project-translations</source>
+https://www.transifex.com/makeator-project/makeator-project-translations</source>
         <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung hier bei:
-https://www.transifex.com/chronos-project/chronos-project-translations</translation>
+https://www.transifex.com/makeator-project/makeator-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Percentage of incoming CRN which get automatically converted to zCRN via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des einkommenden CRN, welcher automatisch zu zCRN via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
+        <source>Percentage of incoming MKTR which get automatically converted to zMKTR via Zerocoin Protocol (min: 10%)</source>
+        <translation>Anteil des einkommenden MKTR, welcher automatisch zu zMKTR via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zCRN</source>
-        <translation>Prozentsatz der automatisierten zCRN</translation>
+        <source>Percentage of autominted zMKTR</source>
+        <translation>Prozentsatz der automatisierten zMKTR</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough CRN for this denomination is available</source>
-        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend CRN für diese Stückelung verfügbar ist</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough MKTR for this denomination is available</source>
+        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend MKTR für diese Stückelung verfügbar ist</translation>
     </message>
     <message>
-        <source>Preferred Automint zCRN Denomination</source>
-        <translation>Bevorzugte automatisierte zCRN Stückelung </translation>
+        <source>Preferred Automint zMKTR Denomination</source>
+        <translation>Bevorzugte automatisierte zMKTR Stückelung </translation>
     </message>
     <message>
-        <source>Connect to the Chronos network through a SOCKS5 proxy.</source>
-        <translation>Durch einen SOCKS5 Proxy mit dem Chronos Netzwerk verbinden.</translation>
+        <source>Connect to the Makeator network through a SOCKS5 proxy.</source>
+        <translation>Durch einen SOCKS5 Proxy mit dem Makeator Netzwerk verbinden.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1854,8 +1854,8 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Formular</translation>
     </message>
     <message>
-        <source>CRN Balances</source>
-        <translation>CRN Bilanzen</translation>
+        <source>MKTR Balances</source>
+        <translation>MKTR Bilanzen</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1882,8 +1882,8 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Chronos-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Makeator network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Makeator-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1922,12 +1922,12 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Kombinierte Bilanz (einschließlich unreifer Coins)</translation>
     </message>
     <message>
-        <source>CRN:</source>
-        <translation>CRN:</translation>
+        <source>MKTR:</source>
+        <translation>MKTR:</translation>
     </message>
     <message>
-        <source>zCRN:</source>
-        <translation>zCRN:</translation>
+        <source>zMKTR:</source>
+        <translation>zMKTR:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1969,12 +1969,12 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Zahlungsaufforderungadresse %1</translation>
     </message>
     <message>
-        <source>Cannot start chronos: click-to-pay handler</source>
-        <translation>Kann Chronos nicht starten: click-to-pay Handler</translation>
+        <source>Cannot start makeator: click-to-pay handler</source>
+        <translation>Kann Makeator nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Chronos address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige Chronos-Adresse oder fehlerhafte URI-Parameter verursacht sein.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Makeator address or malformed URI parameters.</source>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige Makeator-Adresse oder fehlerhafte URI-Parameter verursacht sein.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2055,24 +2055,24 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>CRN which were anonymized via Zerocin Protocol</source>
-        <translation>CRN, die über das Zerocin-Protokoll anonymisiert wurden</translation>
+        <source>MKTR which were anonymized via Zerocin Protocol</source>
+        <translation>MKTR, die über das Zerocin-Protokoll anonymisiert wurden</translation>
     </message>
     <message>
-        <source>Zerocoin CRN (zCRN)</source>
-        <translation>Zerocoin CRN (zCRN)</translation>
+        <source>Zerocoin MKTR (zMKTR)</source>
+        <translation>Zerocoin MKTR (zMKTR)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Handlungen:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Chronos-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Makeator network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Makeator-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
-        <source>Enter an amount of Crn to convert to zCrn</source>
-        <translation>Eingabe des Crn-Betrags, um in zCrn umzuwandeln</translation>
+        <source>Enter an amount of Mktr to convert to zMktr</source>
+        <translation>Eingabe des Mktr-Betrags, um in zMktr umzuwandeln</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2083,16 +2083,16 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>0</translation>
     </message>
     <message>
-        <source>zCRN</source>
-        <translation>zCRN</translation>
+        <source>zMKTR</source>
+        <translation>zMKTR</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Verfügbar für Prägung:</translation>
     </message>
     <message>
-        <source>0.000 000 00 CRN</source>
-        <translation>0.000 000 00 CRN</translation>
+        <source>0.000 000 00 MKTR</source>
+        <translation>0.000 000 00 MKTR</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2127,12 +2127,12 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Status und/oder Mitteilungen aus der letzten Präge-Action</translation>
     </message>
     <message>
-        <source>zCrn Control</source>
-        <translation>zCrn Kontrolle</translation>
+        <source>zMktr Control</source>
+        <translation>zMktr Kontrolle</translation>
     </message>
     <message>
-        <source>zCrn Selected:</source>
-        <translation>zCrn Ausgewählt:</translation>
+        <source>zMktr Selected:</source>
+        <translation>zMktr Ausgewählt:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2151,8 +2151,8 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Verfügbare Bilanz:</translation>
     </message>
     <message>
-        <source>0 zCRN</source>
-        <translation>0 zCRN</translation>
+        <source>0 zMKTR</source>
+        <translation>0 zMKTR</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2171,8 +2171,8 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The Chronos address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Die Chronos-Adresse, an die die Zahlung gesenden wird. Erstelle Sie eine lokale Zahlung an sich selbst, wenn sie leer ist.</translation>
+        <source>The Makeator address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Die Makeator-Adresse, an die die Zahlung gesenden wird. Erstelle Sie eine lokale Zahlung an sich selbst, wenn sie leer ist.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2387,8 +2387,8 @@ https://www.transifex.com/chronos-project/chronos-project-translations</translat
         <translation>Erfolgreich geprägt</translation>
     </message>
     <message>
-        <source> zCRN in </source>
-        <translation> zCRN in </translation>
+        <source> zMKTR in </source>
+        <translation> zMKTR in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2437,8 +2437,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Keine "Pay To"-Adresse zur Verfügung. Erstelle lokale Zahlung</translation>
     </message>
     <message>
-        <source>Invalid Chronos Address</source>
-        <translation>Ungültige Chronos-Adresse </translation>
+        <source>Invalid Makeator Address</source>
+        <translation>Ungültige Makeator-Adresse </translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2481,8 +2481,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Ausgeben Zerocoin fehlgeschlagen mit Status =</translation>
     </message>
     <message>
-        <source>zCrn Spend #: </source>
-        <translation>zCRN Ausgeben #:</translation>
+        <source>zMktr Spend #: </source>
+        <translation>zMKTR Ausgeben #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2505,8 +2505,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>zCrn Mint</source>
-        <translation>zCrn Prägen</translation>
+        <source>zMktr Mint</source>
+        <translation>zMktr Prägen</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2528,8 +2528,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a Chronos address (e.g. %1)</source>
-        <translation>Chronos-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a Makeator address (e.g. %1)</source>
+        <translation>Makeator-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2666,8 +2666,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Chronos debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffne Chronos-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann für einige Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the Makeator debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffne Makeator-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann für einige Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2834,8 +2834,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Chronos RPC console.</source>
-        <translation>Willkommen in der Chronos RPC Konsole.</translation>
+        <source>Welcome to the Makeator RPC console.</source>
+        <translation>Willkommen in der Makeator RPC Konsole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2905,12 +2905,12 @@ Bitte haben Sie Geduld...</translation>
         <translation>Ein optionales Etikett, das mit der neuen Empfangsadresse verknüpft werden soll.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Chronos network.</source>
-        <translation>Eine optionale Nachricht anhängen an die Zahlungsaufforderung, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das Chronos-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Makeator network.</source>
+        <translation>Eine optionale Nachricht anhängen an die Zahlungsaufforderung, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das Makeator-Netzwerk gesendet.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Chronos network.</source>
-        <translation>Eine optionale Nachricht anhängen an die Zahlungsaufforderung, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das Chronos-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Makeator network.</source>
+        <translation>Eine optionale Nachricht anhängen an die Zahlungsaufforderung, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das Makeator-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3063,7 +3063,7 @@ Bitte haben Sie Geduld...</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>CRNs überweisen</translation>
+        <translation>MKTRs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3134,8 +3134,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 CRN</source>
-        <translation>0 CRN</translation>
+        <source>0 MKTR</source>
+        <translation>0 MKTR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3186,16 +3186,16 @@ Bitte haben Sie Geduld...</translation>
         <translation>Coins automatisch ausgewählt</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCRNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCRNs in fee,&lt;br /&gt;while "at least" pays 1000 uCRNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uCRNs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uCRNs an Gebühr,&lt;br /&gt;während man "mindestens" 1000 uCRNs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie mit Kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uMKTRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMKTRs in fee,&lt;br /&gt;while "at least" pays 1000 uMKTRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Wenn die kundenspezifische Gebühr auf 1000 uMKTRs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uMKTRs an Gebühr,&lt;br /&gt;während man "mindestens" 1000 uMKTRs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie mit Kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCRNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCRNs in fee,&lt;br /&gt;while "total at least" pays 1000 uCRNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uCRNs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uCRNs an Gebühr,&lt;br /&gt;während man "insgesamt mindestens" 1000 uCRNs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie mit Kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uMKTRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMKTRs in fee,&lt;br /&gt;while "total at least" pays 1000 uMKTRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Wenn die kundenspezifische Gebühr auf 1000 uMKTRs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uMKTRs an Gebühr,&lt;br /&gt;während man "insgesamt mindestens" 1000 uMKTRs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie mit Kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Chronos transactions than the network can process.</source>
-        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken ist.&lt;br /&gt;Aber sein Sie sich bewusst, dass dies am Ende in einer niemals bestätigende Transaktion endet, sobald es mehr Nachfrage nach Chronos-Transaktionen gibt, als das Netzwerk verarbeiten kann.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Makeator transactions than the network can process.</source>
+        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken ist.&lt;br /&gt;Aber sein Sie sich bewusst, dass dies am Ende in einer niemals bestätigende Transaktion endet, sobald es mehr Nachfrage nach Makeator-Transaktionen gibt, als das Netzwerk verarbeiten kann.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3242,8 +3242,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Empfänge&amp;r hinzufügen</translation>
     </message>
     <message>
-        <source>Anonymized CRN</source>
-        <translation>Anonymisierte CRN</translation>
+        <source>Anonymized MKTR</source>
+        <translation>Anonymisierte MKTR</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3302,8 +3302,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>anonyme Mittel</translation>
     </message>
     <message>
-        <source>Warning: Invalid Chronos address</source>
-        <translation>Warnung: Ungültige Chronos-Adresse</translation>
+        <source>Warning: Invalid Makeator address</source>
+        <translation>Warnung: Ungültige Makeator-Adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3409,8 +3409,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The Chronos address to send the payment to</source>
-        <translation>Chronos-Adresse, an die überwiesen werden soll</translation>
+        <source>The Makeator address to send the payment to</source>
+        <translation>Makeator-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3449,8 +3449,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Chronos: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Chronos network.</source>
-        <translation>Eine an die Chronos-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Chronos-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the Makeator: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Makeator network.</source>
+        <translation>Eine an die Makeator-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Makeator-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3476,8 +3476,8 @@ Bitte haben Sie Geduld...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Chronos Core is shutting down...</source>
-        <translation>Chronos Core wird beendet...</translation>
+        <source>Makeator Core is shutting down...</source>
+        <translation>Makeator Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3499,8 +3499,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Sie können Nachrichten mit Ihren Adressen signieren, um zu beweisen, dass Sie sie besitzen. Sein Sie vorsichtig nichts nebulöses zu unterschreiben, da Phishing-Angriffe versuchen können, Sie dazu zu bringen, Ihre Identität zu denen zu untergeben. Unterschreiben Sie nur ganz detaillierte Aussagen, denen Sie zustimmen.</translation>
     </message>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Chronos Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Makeator Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3531,16 +3531,16 @@ Bitte haben Sie Geduld...</translation>
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Chronos Adresse besitzt</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Makeator Adresse besitzt</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Die Chronos Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Die Makeator Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Chronos-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Makeator-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3626,8 +3626,8 @@ Bitte haben Sie Geduld...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3646,8 +3646,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Die PIVX Core Entwickler</translation>
     </message>
     <message>
-        <source>The Chronos Core developers</source>
-        <translation>Die Chronos Core Entwickler</translation>
+        <source>The Makeator Core developers</source>
+        <translation>Die Makeator Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3821,7 +3821,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte CRNs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine CRNs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte MKTRs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine MKTRs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3966,32 +3966,32 @@ Bitte haben Sie Geduld...</translation>
         <translation>Verschleiert</translation>
     </message>
     <message>
-        <source>Converted Crn to zCrn</source>
-        <translation>Umgewandeltes CRN zu zCRN</translation>
+        <source>Converted Mktr to zMktr</source>
+        <translation>Umgewandeltes MKTR zu zMKTR</translation>
     </message>
     <message>
-        <source>Spent zCrn</source>
-        <translation>Ausgeben zCRN</translation>
+        <source>Spent zMktr</source>
+        <translation>Ausgeben zMKTR</translation>
     </message>
     <message>
-        <source>Received Crn from zCrn</source>
-        <translation>Empfangene CRN von zCRN</translation>
+        <source>Received Mktr from zMktr</source>
+        <translation>Empfangene MKTR von zMKTR</translation>
     </message>
     <message>
-        <source>Minted Change as zCrn from zCrn Spend</source>
-        <translation>Geprägtes Wechselgeld als zCRN von zCRN Ausgabe</translation>
+        <source>Minted Change as zMktr from zMktr Spend</source>
+        <translation>Geprägtes Wechselgeld als zMKTR von zMKTR Ausgabe</translation>
     </message>
     <message>
-        <source>Converted zCrn to Crn</source>
-        <translation>Umgewandeltes zCRN zu CRN</translation>
+        <source>Converted zMktr to Mktr</source>
+        <translation>Umgewandeltes zMKTR zu MKTR</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>nur beobachtet</translation>
     </message>
     <message>
-        <source>zCrn Accumulator</source>
-        <translation>zCRN Speicher</translation>
+        <source>zMktr Accumulator</source>
+        <translation>zMKTR Speicher</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4101,8 +4101,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Masternode Vergütung</translation>
     </message>
     <message>
-        <source>Received Crn from zCrn</source>
-        <translation>Empfangen CRN von zCRN</translation>
+        <source>Received Mktr from zMktr</source>
+        <translation>Empfangen MKTR von zMKTR</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4113,8 +4113,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Zerocoin Ausgabe</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zCrn</source>
-        <translation>Zerocoin Ausgabe, Wechselgeld in zCRN</translation>
+        <source>Zerocoin Spend, Change in zMktr</source>
+        <translation>Zerocoin Ausgabe, Wechselgeld in zMKTR</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4235,11 +4235,11 @@ Bitte haben Sie Geduld...</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>CRNs überweisen</translation>
+        <translation>MKTRs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CRN.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 CRN begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MKTR.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 MKTR begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -4282,10 +4282,10 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>ZCrnControlDialog</name>
+    <name>ZMktrControlDialog</name>
     <message>
-        <source>Select zCrn to Spend</source>
-        <translation>Auswahl zCRN als Ausgabe</translation>
+        <source>Select zMktr to Spend</source>
+        <translation>Auswahl zMKTR als Ausgabe</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4296,8 +4296,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zCrn</source>
-        <translation>zCRN</translation>
+        <source>zMktr</source>
+        <translation>zMKTR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4309,7 +4309,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>chronos-core</name>
+    <name>makeator-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>
@@ -4327,8 +4327,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Der berechnete Akkumulator-Checkpoint ist nicht das, was vom Blockindex aufgezeichnet wurde</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Chronos Core is probably already running.</source>
-        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. Chronos Core läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s. Makeator Core is probably already running.</source>
+        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. Makeator Core läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -4339,8 +4339,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Lösche alle Wallet-Transaktionen und stelle nur diese Teile der Blockchain wieder her durch -neuscan beim Start</translation>
     </message>
     <message>
-        <source>Disable all Chronos specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktiviere alle Chronos-spezifischen Funktionen (Masternodes, Verschleierung, SwiftTX, Budgetplanung) (0-1, default: %u)</translation>
+        <source>Disable all Makeator specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Deaktiviere alle Makeator-spezifischen Funktionen (Masternodes, Verschleierung, SwiftTX, Budgetplanung) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4383,12 +4383,12 @@ Bitte haben Sie Geduld...</translation>
         <translation>Befehl ausführen, wenn sich der beste Block ändert (%s in cmd wird durch Blockhash ersetzt)</translation>
     </message>
     <message>
-        <source>Fees (in CRN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebühren (in CRN/kB) kleiner als diese gelten als Null-Gebühr für die Weiterleitung (default: %s)</translation>
+        <source>Fees (in MKTR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebühren (in MKTR/kB) kleiner als diese gelten als Null-Gebühr für die Weiterleitung (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CRN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebühren (in CRN/kB) kleiner als diese werden als Null-Gebühr für die Transaktionserstellung betrachtet (default: %s)</translation>
+        <source>Fees (in MKTR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebühren (in MKTR/kB) kleiner als diese werden als Null-Gebühr für die Transaktionserstellung betrachtet (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4463,8 +4463,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2018 The Chronos Core Developers</source>
-        <translation>Copyright (C) 2018 The Chronos Core Developers</translation>
+        <source>Copyright (C) 2018 The Makeator Core Developers</source>
+        <translation>Copyright (C) 2018 The Makeator Core Developers</translation>
     </message>
     <message>
         <source>Error</source>
@@ -4499,8 +4499,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Chronos Core is shutting down.</source>
-        <translation>Initialisierung Sanity-Check fehlgeschlagen. Chronos Core schaltet ab.</translation>
+        <source>Initialization sanity check failed. Makeator Core is shutting down.</source>
+        <translation>Initialisierung Sanity-Check fehlgeschlagen. Makeator Core schaltet ab.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4791,8 +4791,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Chronos Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte Chronos Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart Makeator Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte Makeator Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

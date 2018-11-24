@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/chronos/.chronos" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/chronos/.chronos"
+if [ -d "/var/lib/makeator/.makeator" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/makeator/.makeator"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/chronosd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/makeatord"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/chronos/chronos.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/chronosd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/chronosd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/makeator/makeator.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/makeatord}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/makeatord.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-chronos}
-BITCOIND_GROUP=${BITCOIND_GROUP:-chronos}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/chronosd}
+BITCOIND_USER=${BITCOIND_USER:-makeator}
+BITCOIND_GROUP=${BITCOIND_GROUP:-makeator}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/makeatord}
 
-name="Chronos Core Daemon"
-description="Chronos crypto-currency p2p network daemon"
+name="Makeator Core Daemon"
+description="Makeator crypto-currency p2p network daemon"
 
-command="/usr/bin/chronosd"
+command="/usr/bin/makeatord"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run chronosd."
+		eerror "ERROR: You must set a secure rpcpassword to run makeatord."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Chronos Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Makeator Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

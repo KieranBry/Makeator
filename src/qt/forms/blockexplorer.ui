@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../chronos.qrc"/>
+  <include location="../makeator.qrc"/>
  </resources>
  <connections/>
 </ui>

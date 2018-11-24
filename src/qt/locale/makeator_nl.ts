@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Chronosadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your Makeator addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Makeatoradressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Chronosadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your Makeator addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Makeatoradressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRNs from being stolen by malware infecting your computer.</source>
-        <translation>Chronos zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw CRNs stelen.</translation>
+        <source>Makeator will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MKTRs from being stolen by malware infecting your computer.</source>
+        <translation>Makeator zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw MKTRs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRN&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW CRN VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MKTR&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW MKTR VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een Chronos adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a Makeator Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een Makeator adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Het Chronos adres om het bericht met te ondertekenen</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Het Makeator adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Chronos adres bezit</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het Makeator adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Het Chronos adres waarmee het bericht was ondertekend</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Het Makeator adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Chronos adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Makeator adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,16 +594,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kern</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kern</translation>
     </message>
     <message>
-        <source>Send coins to a Chronos address</source>
-        <translation>Verstuur munten naar een Chronos adres</translation>
+        <source>Send coins to a Makeator address</source>
+        <translation>Verstuur munten naar een Makeator adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and chronos: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en Chronos: URI's)</translation>
+        <source>Request payments (generates QR codes and makeator: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en Makeator: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,24 +614,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Chronos Core</source>
-        <translation>&amp;Over Chronos Kern</translation>
+        <source>&amp;About Makeator Core</source>
+        <translation>&amp;Over Makeator Kern</translation>
     </message>
     <message>
-        <source>Show information about Chronos Core</source>
-        <translation>Toon informatie over Chronos Kern</translation>
+        <source>Show information about Makeator Core</source>
+        <translation>Toon informatie over Makeator Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Chronos</source>
-        <translation>Wijzig Chronos configuratie opties</translation>
+        <source>Modify configuration options for Makeator</source>
+        <translation>Wijzig Makeator configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your Chronos addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Chronos adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Makeator addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Makeator adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Chronos adressen</translation>
+        <source>Verify messages to ensure they were signed with specified Makeator addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Makeator adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a Chronos: URI or payment request</source>
-        <translation>Open een Chronos: URI of betaalverzoek</translation>
+        <source>Open a Makeator: URI or payment request</source>
+        <translation>Open een Makeator: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Chronos Core client</source>
-        <translation>Chronos Core client</translation>
+        <source>Makeator Core client</source>
+        <translation>Makeator Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Chronos network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Chronos netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Chronos netwerk</numerusform></translation>
+        <source>%n active connection(s) to Makeator network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het Makeator netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Makeator netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -825,8 +825,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chronos.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (chronos.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (makeator.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (makeator.conf).</translation>
     </message>
 </context>
 <context>
@@ -1042,8 +1042,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Chronos address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig Chronos adres.</translation>
+        <source>The entered address "%1" is not a valid Makeator address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig Makeator adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1072,16 +1072,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kern</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Chronos Core</source>
-        <translation>Over Chronos Core</translation>
+        <source>About Makeator Core</source>
+        <translation>Over Makeator Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1111,16 +1111,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Chronos Core.</source>
-        <translation>Welkom bij Chronos Core</translation>
+        <source>Welcome to Makeator Core.</source>
+        <translation>Welkom bij Makeator Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kern</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1336,20 +1336,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Chronos after logging in to the system.</source>
-        <translation>Chronos automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Makeator after logging in to the system.</source>
+        <translation>Makeator automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Chronos on system login</source>
-        <translation>&amp;Chronos starten bij systeemlogin</translation>
+        <source>&amp;Start Makeator on system login</source>
+        <translation>&amp;Makeator starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Chronos.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Chronos.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Makeator.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Makeator.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1500,16 +1500,16 @@ MultiSend: %1</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Enter an amount of Crn to convert to zCrn</source>
-        <translation>Vul de hoeveleheid in om Crn te converteren naar zCrn</translation>
+        <source>Enter an amount of Mktr to convert to zMktr</source>
+        <translation>Vul de hoeveleheid in om Mktr te converteren naar zMktr</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zCRN</source>
-        <translation>zCRN</translation>
+        <source>zMKTR</source>
+        <translation>zMKTR</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1619,8 +1619,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a Chronos address (e.g. %1)</source>
-        <translation>Voer een Chronos adres in (b.v. %1)</translation>
+        <source>Enter a Makeator address (e.g. %1)</source>
+        <translation>Voer een Makeator adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1821,8 +1821,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Chronos RPC console.</source>
-        <translation>Welkom bij de Chronos RPC console.</translation>
+        <source>Welcome to the Makeator RPC console.</source>
+        <translation>Welkom bij de Makeator RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2029,8 +2029,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 CRN</source>
-        <translation>0 CRN</translation>
+        <source>0 MKTR</source>
+        <translation>0 MKTR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2121,8 +2121,8 @@ MultiSend: %1</translation>
         <translation>anonieme financiën</translation>
     </message>
     <message>
-        <source>Warning: Invalid Chronos address</source>
-        <translation>Waarschuwing: Ongeldig Chronos adres</translation>
+        <source>Warning: Invalid Makeator address</source>
+        <translation>Waarschuwing: Ongeldig Makeator adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2176,8 +2176,8 @@ MultiSend: %1</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The Chronos address to send the payment to</source>
-        <translation>Het Chronos adres om de betaling naar te verzenden</translation>
+        <source>The Makeator address to send the payment to</source>
+        <translation>Het Makeator adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Chronos Core is shutting down...</source>
-        <translation>Chronos Core is aan het afsluiten...</translation>
+        <source>Makeator Core is shutting down...</source>
+        <translation>Makeator Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2250,8 +2250,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Het Chronos adres om het bericht met te ondertekenen</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Het Makeator adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2282,16 +2282,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Chronos adres bezit</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het Makeator adres bezit</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Het Chronos adres waarmee het bericht was ondertekend</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Het Makeator adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Chronos adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Makeator adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2361,8 +2361,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kern</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2378,11 +2378,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>The PIVX Core developers</source>
-        <translation>De Chronos Core ontwikkelaars</translation>
+        <translation>De Makeator Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The Chronos Core developers</source>
-        <translation>De Chronos Core ontwikkelaars</translation>
+        <source>The Makeator Core developers</source>
+        <translation>De Makeator Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2741,10 +2741,10 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>ZCrnControlDialog</name>
+    <name>ZMktrControlDialog</name>
     <message>
-        <source>Select zCrn to Spend</source>
-        <translation>Selecteer zCrn om te spenderen</translation>
+        <source>Select zMktr to Spend</source>
+        <translation>Selecteer zMktr om te spenderen</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -2755,8 +2755,8 @@ MultiSend: %1</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zCrn</source>
-        <translation>zCrn</translation>
+        <source>zMktr</source>
+        <translation>zMktr</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -2768,7 +2768,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>chronos-core</name>
+    <name>makeator-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2810,8 +2810,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2018 The Chronos Core Developers</source>
-        <translation>Copyright (C) 2018 The Chronos Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2018 The Makeator Core Developers</source>
+        <translation>Copyright (C) 2018 The Makeator Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

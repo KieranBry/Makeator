@@ -1,19 +1,19 @@
 [Unit]
-Description=Chronos's distributed currency daemon
+Description=Makeator's distributed currency daemon
 After=network.target
 
 [Service]
-User=chronos
-Group=chronos
+User=makeator
+Group=makeator
 
 Type=forking
-PIDFile=/var/lib/chronosd/chronosd.pid
+PIDFile=/var/lib/makeatord/makeatord.pid
 
-ExecStart=/usr/bin/chronosd -daemon -pid=/var/lib/chronosd/chronosd.pid \
-          -conf=/etc/chronos/chronos.conf -datadir=/var/lib/chronosd
+ExecStart=/usr/bin/makeatord -daemon -pid=/var/lib/makeatord/makeatord.pid \
+          -conf=/etc/makeator/makeator.conf -datadir=/var/lib/makeatord
 
-ExecStop=-/usr/bin/chronos-cli -conf=/etc/chronos/chronos.conf \
-         -datadir=/var/lib/chronosd stop
+ExecStop=-/usr/bin/makeator-cli -conf=/etc/makeator/makeator.conf \
+         -datadir=/var/lib/makeatord stop
 
 Restart=always
 PrivateTmp=true

@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: chronosd.service
-Upstart: chronosd.conf
-OpenRC:  chronosd.openrc
-         chronosd.openrcconf
-CentOS:  chronosd.init
+SystemD: makeatord.service
+Upstart: makeatord.conf
+OpenRC:  makeatord.openrc
+         makeatord.openrcconf
+CentOS:  makeatord.init
 
 have been made available to assist packagers in creating node packages here.
 

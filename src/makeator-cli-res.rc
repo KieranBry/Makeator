@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Chronos"
-            VALUE "FileDescription",    "Chronos-cli (OSS RPC client for Chronos)"
+            VALUE "CompanyName",        "Makeator"
+            VALUE "FileDescription",    "Makeator-cli (OSS RPC client for Makeator)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "chronos-cli"
+            VALUE "InternalName",       "makeator-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "chronos-cli.exe"
-            VALUE "ProductName",        "Chronos-cli"
+            VALUE "OriginalFilename",   "makeator-cli.exe"
+            VALUE "ProductName",        "Makeator-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/chronos-config.h"
+#include "config/makeator-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -63,7 +63,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::CRN);
+        settings.setValue("nDisplayUnit", BitcoinUnits::MKTR);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -92,10 +92,10 @@ void OptionsModel::Init()
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    if (!settings.contains("nAnonymizeChronosAmount"))
-        settings.setValue("nAnonymizeChronosAmount", 1000);
+    if (!settings.contains("nAnonymizeMakeatorAmount"))
+        settings.setValue("nAnonymizeMakeatorAmount", 1000);
 
-    nAnonymizeChronosAmount = settings.value("nAnonymizeChronosAmount").toLongLong();
+    nAnonymizeMakeatorAmount = settings.value("nAnonymizeMakeatorAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -169,8 +169,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeChronosAmount"))
-        SoftSetArg("-anonymizechronosamount", settings.value("nAnonymizeChronosAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeMakeatorAmount"))
+        SoftSetArg("-anonymizemakeatoramount", settings.value("nAnonymizeMakeatorAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -181,7 +181,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in chronos.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in makeator.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -261,8 +261,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeChronosAmount:
-            return QVariant(nAnonymizeChronosAmount);
+        case AnonymizeMakeatorAmount:
+            return QVariant(nAnonymizeMakeatorAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -391,10 +391,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit hideZeroBalancesChanged(fHideZeroBalances);
             break;
 
-        case AnonymizeChronosAmount:
-            nAnonymizeChronosAmount = value.toInt();
-            settings.setValue("nAnonymizeChronosAmount", nAnonymizeChronosAmount);
-            emit anonymizeChronosAmountChanged(nAnonymizeChronosAmount);
+        case AnonymizeMakeatorAmount:
+            nAnonymizeMakeatorAmount = value.toInt();
+            settings.setValue("nAnonymizeMakeatorAmount", nAnonymizeMakeatorAmount);
+            emit anonymizeMakeatorAmountChanged(nAnonymizeMakeatorAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

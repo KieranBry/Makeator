@@ -1,6 +1,6 @@
-usr/local/bin/chronos-qt usr/bin
+usr/local/bin/makeator-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/chronos-qt.desktop usr/share/applications
-debian/chronos-qt.protocol usr/share/kde4/services/
+debian/makeator-qt.desktop usr/share/applications
+debian/makeator-qt.protocol usr/share/kde4/services/

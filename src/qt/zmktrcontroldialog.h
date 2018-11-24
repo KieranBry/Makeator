@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZCRNCONTROLDIALOG_H
-#define ZCRNCONTROLDIALOG_H
+#ifndef ZMKTRCONTROLDIALOG_H
+#define ZMKTRCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -15,16 +15,16 @@ class CZerocoinMint;
 class WalletModel;
 
 namespace Ui {
-class ZCrnControlDialog;
+class ZMktrControlDialog;
 }
 
-class ZCrnControlDialog : public QDialog
+class ZMktrControlDialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit ZCrnControlDialog(QWidget *parent);
-    ~ZCrnControlDialog();
+    explicit ZMktrControlDialog(QWidget *parent);
+    ~ZMktrControlDialog();
 
     void setModel(WalletModel* model);
 
@@ -33,7 +33,7 @@ public:
     static std::vector<CZerocoinMint> GetSelectedMints();
 
 private:
-    Ui::ZCrnControlDialog *ui;
+    Ui::ZMktrControlDialog *ui;
     WalletModel* model;
     PrivacyDialog* privacyDialog;
 
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZCRNCONTROLDIALOG_H
+#endif // ZMKTRCONTROLDIALOG_H

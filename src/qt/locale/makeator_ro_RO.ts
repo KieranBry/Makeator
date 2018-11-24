@@ -183,9 +183,9 @@
     </message>
     </context>
 <context>
-    <name>ZCrnControlDialog</name>
+    <name>ZMktrControlDialog</name>
     </context>
 <context>
-    <name>chronos-core</name>
+    <name>makeator-core</name>
     </context>
 </TS>

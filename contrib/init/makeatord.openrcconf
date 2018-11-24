@@ -1,25 +1,25 @@
-# /etc/conf.d/chronosd: config file for /etc/init.d/chronosd
+# /etc/conf.d/makeatord: config file for /etc/init.d/makeatord
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/chronos/chronos.conf"
+#BITCOIND_CONFIGFILE="/etc/makeator/makeator.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/chronosd"
+#BITCOIND_PIDDIR="/var/run/makeatord"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/chronosd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/makeatord.pid"
 
-# Where to write chronosd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/chronosd"
+# Where to write makeatord data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/makeatord"
 
-# User and group to own chronosd process
-#BITCOIND_USER="chronos"
-#BITCOIND_GROUP="chronos"
+# User and group to own makeatord process
+#BITCOIND_USER="makeator"
+#BITCOIND_GROUP="makeator"
 
-# Path to chronosd executable
-#BITCOIND_BIN="/usr/bin/chronosd"
+# Path to makeatord executable
+#BITCOIND_BIN="/usr/bin/makeatord"
 
-# Nice value to run chronosd under
+# Nice value to run makeatord under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the chronosd tests manually, launch src/test/test_chronos .
+To run the makeatord tests manually, launch src/test/test_makeator .
 
-To add more chronosd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more makeatord tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the chronos-qt tests manually, launch src/qt/test/chronos-qt_test
+To run the makeator-qt tests manually, launch src/qt/test/makeator-qt_test
 
-To add more chronos-qt tests, add them to the `src/qt/test/` directory and
+To add more makeator-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

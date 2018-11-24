@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The PIVX Core developers, 2018 The Chronos Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The PIVX Core developers, 2018 The Makeator Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Chronos-Qt</string>
+  <string>Makeator-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Chronos-Qt</string>
+  <string>Makeator-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.chronos.Chronos-Qt</string>
+  <string>io.makeator.Makeator-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.chronos.ChronosPayment</string>
+      <string>io.makeator.MakeatorPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>chronos</string>
+        <string>makeator</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.chronos.paymentrequest</string>
+      <string>io.makeator.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Chronos payment request</string>
+      <string>Makeator payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-chronos-payment-request</string>
+        <string>application/x-makeator-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>chronospaymentrequest</string>
+          <string>makeatorpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.chronos.paymentrequest</string>
+        <string>io.makeator.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

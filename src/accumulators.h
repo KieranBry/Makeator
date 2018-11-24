@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef CHRONOS_ACCUMULATORS_H
-#define CHRONOS_ACCUMULATORS_H
+#ifndef MAKEATOR_ACCUMULATORS_H
+#define MAKEATOR_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -27,4 +27,4 @@ uint32_t GetChecksum(const CBigNum &bnValue);
 bool InvalidCheckpointRange(int nHeight);
 bool ValidateAccumulatorCheckpoint(const CBlock& block, CBlockIndex* pindex, AccumulatorMap& mapAccumulators);
 
-#endif //CHRONOS_ACCUMULATORS_H
+#endif //MAKEATOR_ACCUMULATORS_H

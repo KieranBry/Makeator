@@ -22,7 +22,7 @@
 #endif
 
 #if defined(HAVE_CONFIG_H)
-#include "config/chronos-config.h" /* for USE_QRCODE */
+#include "config/makeator-config.h" /* for USE_QRCODE */
 #endif
 
 #ifdef USE_QRCODE

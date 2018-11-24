@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::CRN)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::MKTR)
     {
     }
 
@@ -165,7 +165,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sCRNPercentage, QString& szCRNPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sMKTRPercentage, QString& szMKTRPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -184,8 +184,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
     
-    szCRNPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sCRNPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szMKTRPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sMKTRPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
     
 }
 
@@ -209,23 +209,23 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nLockedBalance = pwalletMain->GetLockedCoins();
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
-    // CRN Balance
+    // MKTR Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount crnAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount mktrAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance + watchImmatureBalance;    
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
-    // zCRN Balance
+    // zMKTR Balance
     CAmount matureZerocoinBalance = zerocoinBalance - immatureZerocoinBalance;
     // Percentages
     QString szPercentage = "";
     QString sPercentage = "";
     getPercentage(nUnlockedBalance, zerocoinBalance, sPercentage, szPercentage);
     // Combined balances
-    CAmount availableTotalBalance = crnAvailableBalance + matureZerocoinBalance;
+    CAmount availableTotalBalance = mktrAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // CRN labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, crnAvailableBalance, false, BitcoinUnits::separatorAlways));
+    // MKTR labels
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, mktrAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -239,7 +239,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
 /*
-    // zCRN labels
+    // zMKTR labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -250,19 +250,19 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelCRNPercent->setText(sPercentage);
-    ui->labelzCRNPercent->setText(szPercentage);
+    ui->labelMKTRPercent->setText(sPercentage);
+    ui->labelzMKTRPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zCRN.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zMKTR.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
         automintHelp += tr("AutoMint is currently enabled and set to ") + QString::number(nZeromintPercentage) + "%.\n";
-        automintHelp += tr("To disable AutoMint add 'enablezeromint=0' in chronos.conf.");
+        automintHelp += tr("To disable AutoMint add 'enablezeromint=0' in makeator.conf.");
     }
     else {
-        automintHelp += tr("AutoMint is currently disabled.\nTo enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in chronos.conf");
+        automintHelp += tr("AutoMint is currently disabled.\nTo enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in makeator.conf");
     }
 */
 
@@ -272,40 +272,40 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     bool showSumAvailable = settingShowAllBalances || sumTotalBalance != availableTotalBalance;
     // ui->labelBalanceTextz->setVisible(showSumAvailable);
     // ui->labelBalancez->setVisible(showSumAvailable);
-    bool showCRNAvailable = settingShowAllBalances || crnAvailableBalance != nTotalBalance;
-    bool showWatchOnlyCRNAvailable = watchOnlyBalance != nTotalWatchBalance;
-    bool showCRNPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyCRNPending = watchUnconfBalance != 0;
-    bool showCRNLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyCRNLocked = nWatchOnlyLockedBalance != 0;
+    bool showMKTRAvailable = settingShowAllBalances || mktrAvailableBalance != nTotalBalance;
+    bool showWatchOnlyMKTRAvailable = watchOnlyBalance != nTotalWatchBalance;
+    bool showMKTRPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyMKTRPending = watchUnconfBalance != 0;
+    bool showMKTRLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyMKTRLocked = nWatchOnlyLockedBalance != 0;
     bool showImmature = settingShowAllBalances || immatureBalance != 0;
     bool showWatchOnlyImmature = watchImmatureBalance != 0;
     bool showWatchOnly = nTotalWatchBalance != 0;
-    ui->labelBalance->setVisible(showCRNAvailable || showWatchOnlyCRNAvailable);
-    ui->labelBalanceText->setVisible(showCRNAvailable || showWatchOnlyCRNAvailable);
-    ui->labelWatchAvailable->setVisible(showCRNAvailable && showWatchOnly);
-    ui->labelUnconfirmed->setVisible(showCRNPending || showWatchOnlyCRNPending);
-    ui->labelPendingText->setVisible(showCRNPending || showWatchOnlyCRNPending);
-    ui->labelWatchPending->setVisible(showCRNPending && showWatchOnly);
-    ui->labelLockedBalance->setVisible(showCRNLocked || showWatchOnlyCRNLocked);
-    ui->labelLockedBalanceText->setVisible(showCRNLocked || showWatchOnlyCRNLocked);
-    ui->labelWatchLocked->setVisible(showCRNLocked && showWatchOnly);
+    ui->labelBalance->setVisible(showMKTRAvailable || showWatchOnlyMKTRAvailable);
+    ui->labelBalanceText->setVisible(showMKTRAvailable || showWatchOnlyMKTRAvailable);
+    ui->labelWatchAvailable->setVisible(showMKTRAvailable && showWatchOnly);
+    ui->labelUnconfirmed->setVisible(showMKTRPending || showWatchOnlyMKTRPending);
+    ui->labelPendingText->setVisible(showMKTRPending || showWatchOnlyMKTRPending);
+    ui->labelWatchPending->setVisible(showMKTRPending && showWatchOnly);
+    ui->labelLockedBalance->setVisible(showMKTRLocked || showWatchOnlyMKTRLocked);
+    ui->labelLockedBalanceText->setVisible(showMKTRLocked || showWatchOnlyMKTRLocked);
+    ui->labelWatchLocked->setVisible(showMKTRLocked && showWatchOnly);
     ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelWatchImmature->setVisible(showImmature && showWatchOnly); // show watch-only immature balance
-    bool showzCRNAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzCRNUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzCRNImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    bool showzMKTRAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzMKTRUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzMKTRImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
     /*
-    ui->labelzBalanceMature->setVisible(showzCRNAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzCRNAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzCRNUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzCRNUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzCRNImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzCRNImmature);
+    ui->labelzBalanceMature->setVisible(showzMKTRAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzMKTRAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzMKTRUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzMKTRUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzMKTRImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzMKTRImmature);
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelCRNPercent->setVisible(showPercentages);
-    ui->labelzCRNPercent->setVisible(showPercentages);
+    ui->labelMKTRPercent->setVisible(showPercentages);
+    ui->labelzMKTRPercent->setVisible(showPercentages);
 */
     static int cachedTxLocks = 0;
 
@@ -376,7 +376,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("CRN")
+    // update the display unit, to not use the default ("MKTR")
     updateDisplayUnit();
 }
 

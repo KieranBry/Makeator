@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -621,7 +621,7 @@ void RPCConsole::clear()
         "td.cmd-error { color: #ee2f77; } "
         "b { color: #006060; } ");
 
-    message(CMD_REPLY, (tr("Welcome to the Chronos RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the Makeator RPC console.") + "<br>" +
                            tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                            tr("Type <b>help</b> for an overview of available commands.")),
         true);

@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/chronos-config.h \
+           src/makeator-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/chronos-config.h \
+           src/config/makeator-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -335,7 +335,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/chronos.moc \
+           src/qt/makeator.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -376,9 +376,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/chronos-cli.cpp \
-           src/chronos-tx.cpp \
-           src/chronos.cpp \
+           src/makeator-cli.cpp \
+           src/makeator-tx.cpp \
+           src/makeator.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -476,8 +476,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/chronos.cpp \
-           src/qt/chronosstrings.cpp \
+           src/qt/makeator.cpp \
+           src/qt/makeatorstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -555,7 +555,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_chronos.cpp \
+           src/test/test_makeator.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -646,21 +646,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/chronos.qrc src/qt/chronos_locale.qrc
+RESOURCES += src/qt/makeator.qrc src/qt/makeator_locale.qrc
 
-TRANSLATIONS += src/qt/locale/chronos_bg.ts \
-                src/qt/locale/chronos_de.ts \
-                src/qt/locale/chronos_en.ts \
-                src/qt/locale/chronos_es.ts \
-                src/qt/locale/chronos_fi.ts \
-                src/qt/locale/chronos_fr.ts \
-                src/qt/locale/chronos_it.ts \
-                src/qt/locale/chronos_ja.ts \
-                src/qt/locale/chronos_pl.ts \
-                src/qt/locale/chronos_pt.ts \
-                src/qt/locale/chronos_ru.ts \
-                src/qt/locale/chronos_sk.ts \
-                src/qt/locale/chronos_sv.ts \
-                src/qt/locale/chronos_vi.ts \
-                src/qt/locale/chronos_zh_CN.ts \
-                src/qt/locale/chronos_zh_TW.ts
+TRANSLATIONS += src/qt/locale/makeator_bg.ts \
+                src/qt/locale/makeator_de.ts \
+                src/qt/locale/makeator_en.ts \
+                src/qt/locale/makeator_es.ts \
+                src/qt/locale/makeator_fi.ts \
+                src/qt/locale/makeator_fr.ts \
+                src/qt/locale/makeator_it.ts \
+                src/qt/locale/makeator_ja.ts \
+                src/qt/locale/makeator_pl.ts \
+                src/qt/locale/makeator_pt.ts \
+                src/qt/locale/makeator_ru.ts \
+                src/qt/locale/makeator_sk.ts \
+                src/qt/locale/makeator_sv.ts \
+                src/qt/locale/makeator_vi.ts \
+                src/qt/locale/makeator_zh_CN.ts \
+                src/qt/locale/makeator_zh_TW.ts

@@ -229,7 +229,7 @@ bitcoin (0.4.0-1) unstable; urgency=low
     + Build and invoke test binary unless tests are disabled.
   * Tighten build-dependency on cdbs: Recent version needed to support
     debhelper 7.
-  * Recrn build-depend unversioned on debhelper: needed version
+  * Remktr build-depend unversioned on debhelper: needed version
     satisfied even in oldstable.
   * Stop suppress optional build-dependencies: Satisfied in stable.
     Build-depend on devscripts (enabling copyright-check).
@@ -365,8 +365,8 @@ bitcoin (0.3.19~dfsg-5) unstable; urgency=low
 bitcoin (0.3.19~dfsg-4) unstable; urgency=low
 
   [ Micah Anderson ]
-  * Provide example chronos.conf.
-  * Add bitcoind(1) and chronos.conf(5) man pages.
+  * Provide example makeator.conf.
+  * Add bitcoind(1) and makeator.conf(5) man pages.
 
   [ Jonas Smedegaard ]
   * Ease backporting:

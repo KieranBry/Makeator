@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ZCrnControlDialog</class>
- <widget class="QDialog" name="ZCrnControlDialog">
+ <class>ZMktrControlDialog</class>
+ <widget class="QDialog" name="ZMktrControlDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Select zCrn to Spend</string>
+   <string>Select zMktr to Spend</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0">
    <item>
@@ -57,14 +57,14 @@
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QLabel" name="labelZCrn">
+        <widget class="QLabel" name="labelZMktr">
          <property name="text">
-          <string>zCrn</string>
+          <string>zMktr</string>
          </property>
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLabel" name="labelZCrn_int">
+        <widget class="QLabel" name="labelZMktr_int">
          <property name="text">
           <string>0</string>
          </property>
@@ -155,7 +155,7 @@
      </column>
      <column>
       <property name="text">
-       <string notr="true">zCrn Public ID</string>
+       <string notr="true">zMktr Public ID</string>
       </property>
      </column>
      <column>
@@ -193,7 +193,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>ZCrnControlDialog</receiver>
+   <receiver>ZMktrControlDialog</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -209,7 +209,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>ZCrnControlDialog</receiver>
+   <receiver>ZMktrControlDialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">

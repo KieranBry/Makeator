@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -264,11 +264,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Chronos server.");
+            "\nStop Makeator server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Chronos server stopping";
+    return "Makeator server stopping";
 }
 
 
@@ -352,36 +352,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Chronos features */
-        {"chronos", "masternode", &masternode, true, true, false},
-        {"chronos", "listmasternodes", &listmasternodes, true, true, false},
-        {"chronos", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"chronos", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"chronos", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"chronos", "masternodedebug", &masternodedebug, true, true, false},
-        {"chronos", "startmasternode", &startmasternode, true, true, false},
-        {"chronos", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"chronos", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"chronos", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"chronos", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"chronos", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"chronos", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"chronos", "mnbudget", &mnbudget, true, true, false},
-        {"chronos", "preparebudget", &preparebudget, true, true, false},
-        {"chronos", "submitbudget", &submitbudget, true, true, false},
-        {"chronos", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"chronos", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"chronos", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"chronos", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"chronos", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"chronos", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"chronos", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"chronos", "checkbudgets", &checkbudgets, true, true, false},
-        {"chronos", "mnsync", &mnsync, true, true, false},
-        {"chronos", "spork", &spork, true, true, false},
-        {"chronos", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Makeator features */
+        {"makeator", "masternode", &masternode, true, true, false},
+        {"makeator", "listmasternodes", &listmasternodes, true, true, false},
+        {"makeator", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"makeator", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"makeator", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"makeator", "masternodedebug", &masternodedebug, true, true, false},
+        {"makeator", "startmasternode", &startmasternode, true, true, false},
+        {"makeator", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"makeator", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"makeator", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"makeator", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"makeator", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"makeator", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"makeator", "mnbudget", &mnbudget, true, true, false},
+        {"makeator", "preparebudget", &preparebudget, true, true, false},
+        {"makeator", "submitbudget", &submitbudget, true, true, false},
+        {"makeator", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"makeator", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"makeator", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"makeator", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"makeator", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"makeator", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"makeator", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"makeator", "checkbudgets", &checkbudgets, true, true, false},
+        {"makeator", "mnsync", &mnsync, true, true, false},
+        {"makeator", "spork", &spork, true, true, false},
+        {"makeator", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"chronos", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"makeator", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -608,14 +608,14 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> chronos-cli " + methodname + " " + args + "\n";
+    return "> makeator-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
            "\"method\": \"" +
-           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:22002/\n";
+           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:25002/\n";
 }
 
 void RPCRegisterTimerInterface(RPCTimerInterface *iface)

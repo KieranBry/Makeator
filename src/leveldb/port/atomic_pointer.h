@@ -139,10 +139,10 @@ class AtomicPointer {
     rep_.store(v, std::memory_order_release);
   }
   inline void* NoBarrier_Load() const {
-    return rep_.load(std::memory_order_recrned);
+    return rep_.load(std::memory_order_remktred);
   }
   inline void NoBarrier_Store(void* v) {
-    rep_.store(v, std::memory_order_recrned);
+    rep_.store(v, std::memory_order_remktred);
   }
 };
 

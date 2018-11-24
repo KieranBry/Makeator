@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Chronos adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your Makeator addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše Makeator adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Chronos adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your Makeator addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše Makeator adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRNs from being stolen by malware infecting your computer.</source>
-        <translation>Chronos se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše CRNy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Makeator will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MKTRs from being stolen by malware infecting your computer.</source>
+        <translation>Makeator se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše MKTRy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRN&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE CRNy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MKTR&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE MKTRy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Chronos adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Makeator Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte Makeator adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Chronos adresa pro podepsání zprávy</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Makeator adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Chronos adresu</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Makeator adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Chronos adresa zprávy byla podpsána</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Makeator adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Chronos adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Makeator adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
-        <source>Send coins to a Chronos address</source>
-        <translation>Odeslat platbuna Chronos adresu</translation>
+        <source>Send coins to a Makeator address</source>
+        <translation>Odeslat platbuna Makeator adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and chronos: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a chronos: URIs)</translation>
+        <source>Request payments (generates QR codes and makeator: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a makeator: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Chronos Core</source>
-        <translation>&amp;O Chronos Core</translation>
+        <source>&amp;About Makeator Core</source>
+        <translation>&amp;O Makeator Core</translation>
     </message>
     <message>
-        <source>Show information about Chronos Core</source>
-        <translation>Zobraz informace o Chronos Core</translation>
+        <source>Show information about Makeator Core</source>
+        <translation>Zobraz informace o Makeator Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Chronos</source>
-        <translation>Upravit možnosti konfigurace pro Chronos</translation>
+        <source>Modify configuration options for Makeator</source>
+        <translation>Upravit možnosti konfigurace pro Makeator</translation>
     </message>
     <message>
-        <source>Sign messages with your Chronos addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Chronos adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your Makeator addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší Makeator adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Chronos adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Makeator addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Makeator adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Chronos: URI or payment request</source>
-        <translation>Otevřít Chronos: URI nebo platební žádost</translation>
+        <source>Open a Makeator: URI or payment request</source>
+        <translation>Otevřít Makeator: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Chronos Core help message to get a list with possible Chronos command-line options</source>
-        <translation>Zobrazit Chronos Core pomocnou zpráv pro získání seznamu možných parametrů Chronos pro příkazy do příkazové řádky</translation>
+        <source>Show the Makeator Core help message to get a list with possible Makeator command-line options</source>
+        <translation>Zobrazit Makeator Core pomocnou zpráv pro získání seznamu možných parametrů Makeator pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Chronos Core client</source>
-        <translation>Chronos Core klient</translation>
+        <source>Makeator Core client</source>
+        <translation>Makeator Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chronos.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (chronos.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (makeator.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (makeator.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Chronos address.</source>
-        <translation>Zadaná adresa "%1" není validní Chronos adresa.</translation>
+        <source>The entered address "%1" is not a valid Makeator address.</source>
+        <translation>Zadaná adresa "%1" není validní Makeator adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,12 +1112,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
-        <source>About Chronos Core</source>
-        <translation>O Chronos Core</translation>
+        <source>About Makeator Core</source>
+        <translation>O Makeator Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1151,16 +1151,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Chronos Core.</source>
-        <translation>Vítejte v Chronos Core.</translation>
+        <source>Welcome to Makeator Core.</source>
+        <translation>Vítejte v Makeator Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Chronos Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Chronos Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Makeator Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Makeator Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Chronos Core will download and store a copy of the Chronos block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Chronos Core stáhne a uloží kopii Chronos blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Makeator Core will download and store a copy of the Makeator block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Makeator Core stáhne a uloží kopii Makeator blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1171,8 +1171,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1438,24 +1438,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 CRN</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 CRN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 MKTR</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 MKTR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRN to anonymize 10000 CRN</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 CRN pro anonymizaci 10000 CRN</translation>
+        <source>This option is the quickest and will cost about ~0.025 MKTR to anonymize 10000 MKTR</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 MKTR pro anonymizaci 10000 MKTR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 CRN per 10000 CRN you anonymize.</source>
-        <translation>0.1 CRN za 10000 CRN anonymizujete.</translation>
+        <source>0.1 MKTR per 10000 MKTR you anonymize.</source>
+        <translation>0.1 MKTR za 10000 MKTR anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1520,12 +1520,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Chronos after logging in to the system.</source>
-        <translation>Automaticky spustit Chronos po přihlášení do systému</translation>
+        <source>Automatically start Makeator after logging in to the system.</source>
+        <translation>Automaticky spustit Makeator po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Chronos on system login</source>
-        <translation>&amp;Spusti Chronos při přihlášení do systému</translation>
+        <source>&amp;Start Makeator on system login</source>
+        <translation>&amp;Spusti Makeator při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2057,8 +2057,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 CRN</source>
-        <translation>0 CRN</translation>
+        <source>0 MKTR</source>
+        <translation>0 MKTR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2186,8 +2186,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Chronos adresa pro podepsání zprávy</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Makeator adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2214,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Chronos adresu</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Makeator adresu</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Chronos adresa zprávy byla podpsána</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Makeator adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Chronos adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Makeator adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2265,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Core</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Core</translation>
     </message>
     </context>
 <context>
@@ -2369,14 +2369,14 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>ZCrnControlDialog</name>
+    <name>ZMktrControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>chronos-core</name>
+    <name>makeator-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

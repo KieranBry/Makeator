@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -34,7 +34,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// ChronosMiner
+// MakeatorMiner
 //
 
 //
@@ -217,8 +217,8 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                     nTotalIn = tx.GetZerocoinSpent();
 
                     //Give a high priority to zerocoinspends to get into the next block
-                    //Priority = (age^6+100000)*amount - gives higher priority to zcrns that have been in mempool long
-                    //and higher priority to zcrns that are large in value
+                    //Priority = (age^6+100000)*amount - gives higher priority to zmktrs that have been in mempool long
+                    //and higher priority to zmktrs that are large in value
                     int64_t nTimeSeen = GetAdjustedTime();
                     double nConfs = 100000;
 
@@ -232,7 +232,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
                     double nTimePriority = std::pow(GetAdjustedTime() - nTimeSeen, 6);
 
-                    // zCRN spends can have very large priority, use non-overflowing safe functions
+                    // zMKTR spends can have very large priority, use non-overflowing safe functions
                     dPriority = double_safe_addition(dPriority, (nTimePriority * nConfs));
                     dPriority = double_safe_multiplication(dPriority, nTotalIn);
 
@@ -280,7 +280,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
                 int nConf = nHeight - coins->nHeight;
 
-                // zCRN spends can have very large priority, use non-overflowing safe functions
+                // zMKTR spends can have very large priority, use non-overflowing safe functions
                 dPriority = double_safe_addition(dPriority, ((double)nValueIn * nConf));
 
             }
@@ -353,7 +353,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             if (!view.HaveInputs(tx))
                 continue;
 
-            // double check that there are no double spent zCrn spends in this block or tx
+            // double check that there are no double spent zMktr spends in this block or tx
             if (tx.IsZerocoinSpend()) {
                 int nHeightTx = 0;
                 if (IsTransactionInChain(tx.GetHash(), nHeightTx))
@@ -374,7 +374,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                         vTxSerials.emplace_back(spend.getCoinSerialNumber());
                     }
                 }
-                //This zCrn serial has already been included in the block, do not add this tx.
+                //This zMktr serial has already been included in the block, do not add this tx.
                 if (fDoubleSerial)
                     continue;
             }
@@ -519,7 +519,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("ChronosMiner : generated block is stale");
+            return error("MakeatorMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -537,7 +537,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("ChronosMiner : ProcessNewBlock, block not accepted");
+        return error("MakeatorMiner : ProcessNewBlock, block not accepted");
 
     for (CNode* node : vNodes) {
         node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
@@ -554,9 +554,9 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     bool fTUDebug = false;
     if (fTUDebug) printf("fProofOfStake = %d\n", fProofOfStake);
-    LogPrintf("ChronosMiner started with fProofOfStake=%d\n", fProofOfStake);
+    LogPrintf("MakeatorMiner started with fProofOfStake=%d\n", fProofOfStake);
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("chronos-miner");
+    RenameThread("makeator-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -649,7 +649,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrintf("Running ChronosMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running MakeatorMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //

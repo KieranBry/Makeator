@@ -1,5 +1,5 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -414,7 +414,7 @@ bool MultisigDialog::createMultisigTransaction(vector<CTxIn> vUserIn, vector<CTx
         }
 
         if(totalIn < totalOut){
-            throw runtime_error("Not enough CRN provided as input to complete transaction (including fee).");
+            throw runtime_error("Not enough MKTR provided as input to complete transaction (including fee).");
         }
 
         //calculate change amount
@@ -479,7 +479,7 @@ bool MultisigDialog::createMultisigTransaction(vector<CTxIn> vUserIn, vector<CTx
             tx.vout.at(changeIndex).nValue -= fee;
             feeStringRet = strprintf("%d",((double)fee)/COIN).c_str();
         }else{
-            throw runtime_error("Not enough CRN provided to cover fee");
+            throw runtime_error("Not enough MKTR provided to cover fee");
         }
 
         //clear junk from script sigs
@@ -778,7 +778,7 @@ bool MultisigDialog::createRedeemScript(int m, vector<string> vKeys, CScript& re
         for(vector<string>::iterator it = vKeys.begin(); it != vKeys.end(); ++it) {
             string keyString = *it;
 #ifdef ENABLE_WALLET
-            // Case 1: Chronos address and we have full public key:
+            // Case 1: Makeator address and we have full public key:
             CBitcoinAddress address(keyString);
             if (pwalletMain && address.IsValid()) {
                 CKeyID keyID;

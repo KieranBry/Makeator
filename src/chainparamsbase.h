@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between chronos-cli and chronosd)
- * of a given instance of the Chronos system.
+ * CBaseChainParams defines the base parameters (shared between makeator-cli and makeatord)
+ * of a given instance of the Makeator system.
  */
 class CBaseChainParams
 {

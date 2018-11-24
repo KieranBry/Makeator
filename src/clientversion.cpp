@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both chronosd and chronos-qt, to make it harder for attackers to
+ * for both makeatord and makeator-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Chronos Core");
+const std::string CLIENT_NAME("Makeator Core");
 
 /**
  * Client version number

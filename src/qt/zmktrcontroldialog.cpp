@@ -1,22 +1,22 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zcrncontroldialog.h"
-#include "ui_zcrncontroldialog.h"
+#include "zmktrcontroldialog.h"
+#include "ui_zmktrcontroldialog.h"
 
 #include "main.h"
 #include "walletmodel.h"
 
 using namespace std;
 
-std::list<std::string> ZCrnControlDialog::listSelectedMints;
-std::list<CZerocoinMint> ZCrnControlDialog::listMints;
+std::list<std::string> ZMktrControlDialog::listSelectedMints;
+std::list<CZerocoinMint> ZMktrControlDialog::listMints;
 
-ZCrnControlDialog::ZCrnControlDialog(QWidget *parent) :
+ZMktrControlDialog::ZMktrControlDialog(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::ZCrnControlDialog),
+    ui(new Ui::ZMktrControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -30,19 +30,19 @@ ZCrnControlDialog::ZCrnControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZCrnControlDialog::~ZCrnControlDialog()
+ZMktrControlDialog::~ZMktrControlDialog()
 {
     delete ui;
 }
 
-void ZCrnControlDialog::setModel(WalletModel *model)
+void ZMktrControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
 }
 
 //Update the tree widget
-void ZCrnControlDialog::updateList()
+void ZMktrControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -134,7 +134,7 @@ void ZCrnControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZCrnControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZMktrControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -157,7 +157,7 @@ void ZCrnControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZCrnControlDialog::updateLabels()
+void ZMktrControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CZerocoinMint mint : listMints) {
@@ -167,14 +167,14 @@ void ZCrnControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZCrn_int->setText(QString::number(nAmount));
+    ui->labelZMktr_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(listSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZCrnControlLabels(nAmount, listSelectedMints.size());
+    privacyDialog->setZMktrControlLabels(nAmount, listSelectedMints.size());
 }
 
-std::vector<CZerocoinMint> ZCrnControlDialog::GetSelectedMints()
+std::vector<CZerocoinMint> ZMktrControlDialog::GetSelectedMints()
 {
     std::vector<CZerocoinMint> listReturn;
     for (const CZerocoinMint mint : listMints) {
@@ -187,7 +187,7 @@ std::vector<CZerocoinMint> ZCrnControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZCrnControlDialog::ButtonAllClicked()
+void ZMktrControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

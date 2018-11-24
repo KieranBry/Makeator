@@ -1,2 +1,2 @@
 # Linked code is Expat - only Debian packaging is GPL-2+
-chronosd: possible-gpl-code-linked-with-openssl
+makeatord: possible-gpl-code-linked-with-openssl

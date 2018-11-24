@@ -80,15 +80,15 @@ noinst_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += chronosd
+  bin_PROGRAMS += makeatord
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += chronos-cli chronos-tx
+  bin_PROGRAMS += makeator-cli makeator-tx
 endif
 
 .PHONY: FORCE
-# chronos core #
+# makeator core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -196,7 +196,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between chronosd and chronos-qt
+# server: shared between makeatord and makeator-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -242,7 +242,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between chronosd and chronos-qt, but only linked
+# wallet: shared between makeatord and makeator-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -337,7 +337,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between chronosd, and chronos-qt and non-server tools
+# common: shared between makeatord, and makeator-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -399,7 +399,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between chronos-cli and chronos-qt
+# cli: shared between makeator-cli and makeator-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -409,16 +409,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# chronosd binary #
-chronosd_SOURCES = chronosd.cpp
-chronosd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-chronosd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-chronosd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# makeatord binary #
+makeatord_SOURCES = makeatord.cpp
+makeatord_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+makeatord_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+makeatord_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-chronosd_SOURCES += chronosd-res.rc
+makeatord_SOURCES += makeatord-res.rc
 endif
-chronosd_LDADD = \
+makeatord_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -431,38 +431,38 @@ chronosd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-chronosd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+makeatord_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# chronos-cli binary #
-chronos_cli_SOURCES = chronos-cli.cpp
-chronos_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-chronos_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-chronos_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# makeator-cli binary #
+makeator_cli_SOURCES = makeator-cli.cpp
+makeator_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+makeator_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+makeator_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-chronos_cli_SOURCES += chronos-cli-res.rc
+makeator_cli_SOURCES += makeator-cli-res.rc
 endif
 
-chronos_cli_LDADD = \
+makeator_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-chronos_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+makeator_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# chronos-tx binary #
-chronos_tx_SOURCES = chronos-tx.cpp
-chronos_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-chronos_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-chronos_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# makeator-tx binary #
+makeator_tx_SOURCES = makeator-tx.cpp
+makeator_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+makeator_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+makeator_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-chronos_tx_SOURCES += chronos-tx-res.rc
+makeator_tx_SOURCES += makeator-tx-res.rc
 endif
 
-chronos_tx_LDADD = \
+makeator_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -470,7 +470,7 @@ chronos_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-chronos_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+makeator_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

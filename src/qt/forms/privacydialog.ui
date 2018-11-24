@@ -172,7 +172,7 @@
                       <item>
                        <layout class="QHBoxLayout" name="horizontalLayout_3">
                         <item>
-                         <widget class="QLabel" name="labelzCRNActions">
+                         <widget class="QLabel" name="labelzMKTRActions">
                           <property name="font">
                            <font>
                             <pointsize>12</pointsize>
@@ -189,9 +189,9 @@
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCRNSyncStatus">
+                         <widget class="QLabel" name="labelzMKTRSyncStatus">
                           <property name="toolTip">
-                           <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Chronos network after a connection is established, but this process has not completed yet.</string>
+                           <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Makeator network after a connection is established, but this process has not completed yet.</string>
                           </property>
                           <property name="styleSheet">
                            <string notr="true">QLabel { color: #ee2f77; }</string>
@@ -244,7 +244,7 @@
                       <item>
                        <layout class="QHBoxLayout" name="horizontalLayout_4">
                         <item>
-                         <widget class="QPushButton" name="pushButtonMintzCRN">
+                         <widget class="QPushButton" name="pushButtonMintzMKTR">
                           <property name="minimumSize">
                            <size>
                             <width>131</width>
@@ -252,7 +252,7 @@
                            </size>
                           </property>
                           <property name="toolTip">
-                           <string>Enter an amount of Crn to convert to zCrn</string>
+                           <string>Enter an amount of Mktr to convert to zMktr</string>
                           </property>
                           <property name="text">
                            <string>Mint Zerocoin</string>
@@ -276,14 +276,14 @@
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCRN_2">
+                         <widget class="QLabel" name="labelzMKTR_2">
                           <property name="text">
-                           <string>zCRN</string>
+                           <string>zMKTR</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCRNAmountText">
+                         <widget class="QLabel" name="labelzMKTRAmountText">
                           <property name="toolTip">
                            <string>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</string>
                           </property>
@@ -296,7 +296,7 @@
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCRNAmountValue">
+                         <widget class="QLabel" name="labelzMKTRAmountValue">
                           <property name="font">
                            <font>
                             <weight>75</weight>
@@ -304,10 +304,10 @@
                            </font>
                           </property>
                           <property name="toolTip">
-                           <string>Enter an amount of Crn to convert to zCrn</string>
+                           <string>Enter an amount of Mktr to convert to zMktr</string>
                           </property>
                           <property name="text">
-                           <string>0.000 000 00 CRN</string>
+                           <string>0.000 000 00 MKTR</string>
                           </property>
                           <property name="alignment">
                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -483,7 +483,7 @@
                              <enum>Qt::ActionsContextMenu</enum>
                             </property>
                             <property name="text">
-                             <string notr="true">0.00 CRN</string>
+                             <string notr="true">0.00 MKTR</string>
                             </property>
                             <property name="textInteractionFlags">
                              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -603,21 +603,21 @@
                          <number>0</number>
                         </property>
                         <item>
-                         <widget class="QPushButton" name="pushButtonZCrnControl">
+                         <widget class="QPushButton" name="pushButtonZMktrControl">
                           <property name="text">
-                           <string>zCrn Control</string>
+                           <string>zMktr Control</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCrnSelected">
+                         <widget class="QLabel" name="labelzMktrSelected">
                           <property name="text">
-                           <string>zCrn Selected:</string>
+                           <string>zMktr Selected:</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCrnSelected_int">
+                         <widget class="QLabel" name="labelzMktrSelected_int">
                           <property name="text">
                            <string>0</string>
                           </property>
@@ -671,7 +671,7 @@
                       <item>
                        <layout class="QHBoxLayout" name="horizontalLayout_6">
                         <item>
-                         <widget class="QPushButton" name="pushButtonSpendzCRN">
+                         <widget class="QPushButton" name="pushButtonSpendzMKTR">
                           <property name="minimumSize">
                            <size>
                             <width>131</width>
@@ -687,9 +687,9 @@
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLabel" name="labelzCRNBalanceText">
+                         <widget class="QLabel" name="labelzMKTRBalanceText">
                           <property name="toolTip">
-                           <string>Available (mature and spendable) zCRN for spending</string>
+                           <string>Available (mature and spendable) zMKTR for spending</string>
                           </property>
                           <property name="text">
                            <string>Available Balance:</string>
@@ -708,12 +708,12 @@
                            </font>
                           </property>
                           <property name="toolTip">
-                           <string>Available (mature and spendable) zCRN for spending
+                           <string>Available (mature and spendable) zMKTR for spending
 
-zCRN are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</string>
+zMKTR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</string>
                           </property>
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                           <property name="alignment">
                            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -827,7 +827,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                              </size>
                             </property>
                             <property name="toolTip">
-                             <string>The Chronos address to send the payment to. Creates local payment to yourself when empty.</string>
+                             <string>The Makeator address to send the payment to. Creates local payment to yourself when empty.</string>
                             </property>
                            </widget>
                           </item>
@@ -840,7 +840,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                              <string/>
                             </property>
                             <property name="icon">
-                             <iconset resource="../chronos.qrc">
+                             <iconset resource="../makeator.qrc">
                               <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
                             </property>
                             <property name="shortcut">
@@ -857,7 +857,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                              <string/>
                             </property>
                             <property name="icon">
-                             <iconset resource="../chronos.qrc">
+                             <iconset resource="../makeator.qrc">
                               <normaloff>:/icons/editpaste</normaloff>:/icons/editpaste</iconset>
                             </property>
                             <property name="shortcut">
@@ -908,7 +908,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                           </property>
                           <property name="buddy">
-                           <cstring>zCRNpayAmount</cstring>
+                           <cstring>zMKTRpayAmount</cstring>
                           </property>
                          </widget>
                         </item>
@@ -918,10 +918,10 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                            <number>0</number>
                           </property>
                           <item>
-                           <widget class="QLineEdit" name="zCRNpayAmount"/>
+                           <widget class="QLineEdit" name="zMKTRpayAmount"/>
                           </item>
                           <item>
-                           <widget class="QLabel" name="labelzCRN">
+                           <widget class="QLabel" name="labelzMKTR">
                             <property name="alignment">
                              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                             </property>
@@ -932,7 +932,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                              </size>
                             </property>
                             <property name="text">
-                             <string>zCRN</string>
+                             <string>zMKTR</string>
                             </property>
                            </widget>
                           </item>
@@ -1013,7 +1013,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                       <item>
                        <layout class="QHBoxLayout" name="horizontalLayout_21">
                         <item>
-                         <widget class="QLabel" name="labelzCRNStats">
+                         <widget class="QLabel" name="labelzMKTRStats">
                           <property name="font">
                            <font>
                             <pointsize>12</pointsize>
@@ -1093,7 +1093,7 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                            </font>
                           </property>
                           <property name="toolTip">
-                           <string>Total Balance including unconfirmed and immature zCRN</string>
+                           <string>Total Balance including unconfirmed and immature zMKTR</string>
                           </property>
                           <property name="text">
                            <string>Total Zerocoin  Balance:</string>
@@ -1131,10 +1131,10 @@ zCRN are mature when they have more than 20 confirmations AND more than 2 mints 
                            </font>
                           </property>
                           <property name="toolTip">
-                           <string>Total Balance including unconfirmed and immature zCRN</string>
+                           <string>Total Balance including unconfirmed and immature zMKTR</string>
                           </property>
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                           <property name="alignment">
                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1591,14 +1591,14 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                         <item>
                          <widget class="QLabel" name="label_AutoMintStatus">
                           <property name="toolTip">
-                           <string>Show the current status of automatic zCRN minting.
+                           <string>Show the current status of automatic zMKTR minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to chronos.conf
-- disable: add 'enablezeromint=0' to chronos.conf
+- enable: add 'enablezeromint=1' to makeator.conf
+- disable: add 'enablezeromint=0' to makeator.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zCRN
+- menu Settings-&gt;Options-&gt;Percentage of autominted zMKTR
 
 </string>
                           </property>
@@ -1678,7 +1678,7 @@ To change the percentage (no restart required):
                            </font>
                           </property>
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1709,7 +1709,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount1">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1740,7 +1740,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount5">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1771,7 +1771,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount10">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1802,7 +1802,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount50">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1833,7 +1833,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount100">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1864,7 +1864,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount500">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1895,7 +1895,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount1000">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -1926,7 +1926,7 @@ To change the percentage (no restart required):
                         <item>
                          <widget class="QLabel" name="labelZsupplyAmount5000">
                           <property name="text">
-                           <string>0 zCRN</string>
+                           <string>0 zMKTR</string>
                           </property>
                          </widget>
                         </item>
@@ -2056,7 +2056,7 @@ To change the percentage (no restart required):
          <enum>Qt::ActionsContextMenu</enum>
         </property>
         <property name="text">
-         <string notr="true">0.000 000 00 CRN</string>
+         <string notr="true">0.000 000 00 MKTR</string>
         </property>
         <property name="textInteractionFlags">
          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -2138,7 +2138,7 @@ To change the percentage (no restart required):
            <enum>Qt::ActionsContextMenu</enum>
           </property>
           <property name="text">
-           <string notr="true">0.00 CRN</string>
+           <string notr="true">0.00 MKTR</string>
           </property>
           <property name="textInteractionFlags">
            <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -2360,7 +2360,7 @@ To change the percentage (no restart required):
          <enum>Qt::ActionsContextMenu</enum>
         </property>
         <property name="text">
-         <string notr="true">0.000 000 00 CRN</string>
+         <string notr="true">0.000 000 00 MKTR</string>
         </property>
         <property name="textInteractionFlags">
          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -2677,7 +2677,7 @@ To change the percentage (no restart required):
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../chronos.qrc"/>
+  <include location="../makeator.qrc"/>
  </resources>
  <connections/>
 </ui>

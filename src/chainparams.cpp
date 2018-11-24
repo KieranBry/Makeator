@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -104,13 +104,13 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xb5;
-        pchMessageStart[1] = 0x1f;
-        pchMessageStart[2] = 0x75;
-        pchMessageStart[3] = 0xd6;
+        pchMessageStart[0] = 0xb2;
+        pchMessageStart[1] = 0x15;
+        pchMessageStart[2] = 0x89;
+        pchMessageStart[3] = 0xc7;
         vAlertPubKey = ParseHex("047ff78a093ca911fbe3c7cd9b8b81976696d92e6ad3d987b00a4cc4841fe9689ed6902be9c6942ef77492d0531bf68cf2e53dc0ac683359f938a7a52a988ced8c");
-        nDefaultPort = 22001;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Chronos starting difficulty is 1 / 2^12
+        nDefaultPort = 25001;
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Makeator starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 64800;   // HALVING EVERY: 64800 BLOCKS
         nSubsidyBudgetPercentage = 5;      // Must be less than 100
         nMaxReorganizationDepth = 100;
@@ -118,10 +118,10 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 60 * 60; // Chronos: 1 hr
-        nTargetSpacing = 120;  // Chronos: 2 min
+        nTargetTimespan = 60 * 60; // Makeator: 1 hr
+        nTargetSpacing = 120;  // Makeator: 2 min
         nMaturity = 10;
-        nMasternodeCollateral = 20000; // 20,000 CRN
+        nMasternodeCollateral = 10000; // 10,000 MKTR
         nMasternodeCountDrift = 20;
         nMaxMoneyOut =  600000000LL * COIN;
         nSwiftTxMinFee = 0.01 * COIN;             // 1 CENT or 10000 satoshis
@@ -157,7 +157,7 @@ public:
             nonce: 308971
             genesis hash: 00000c392c066ec40b4138a3642ac7c7c3a0b157be45553ea1adcce4196c968d
         */
-        const char* pszTimestamp = "Chronos chain made with love in Europe,America,Asia July 5 2018";
+        const char* pszTimestamp = "Makeator group of devs October 2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -168,7 +168,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1530739517;
+        genesis.nTime = 1543043675;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 308971;
 
@@ -204,12 +204,12 @@ public:
         nZerocoinStartHeight = INT_MAX;
         nZerocoinStartTime = INT_MAX;
 
-        vSeeds.push_back(CDNSSeedData("0", "95.179.144.16"));             // Primary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("1", "140.82.54.171"));      // Secondary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("2", "80.240.21.186"));     // Third DNS Seeder
+        vSeeds.push_back(CDNSSeedData("0", "209.250.249.135"));             // Primary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("1", "199.247.12.207"));      // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("2", "140.82.35.203"));     // Third DNS Seeder
 
         // https://en.bitcoin.it/wiki/List_of_address_prefixes
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);     // starts with B
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 51);     // starts with M
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63);     // starts with S
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 75);        // starts with X
 
@@ -224,7 +224,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x0b)(0x2a).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x02)(0x0c)(0xb4).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
@@ -278,18 +278,18 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0xb2;
-        pchMessageStart[1] = 0x16;
-        pchMessageStart[2] = 0x73;
-        pchMessageStart[3] = 0xd7;
+        pchMessageStart[0] = 0xc2;
+        pchMessageStart[1] = 0x25;
+        pchMessageStart[2] = 0x90;
+        pchMessageStart[3] = 0x7d;
         vAlertPubKey = ParseHex("047ff78a093ca911fbe3c7cd9b8b81976696d92e6ad3d987b00a4cc4841fe9689ed6902be9c6942ef77492d0531bf68cf2e53dc0ac683359f938a7a52a988ced8c");
-        nDefaultPort = 22003;
+        nDefaultPort = 25003;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 60 * 60; // Chronos: 1 hr
-        nTargetSpacing = 120;  // Chronos: 2 min
+        nTargetTimespan = 60 * 60; // Makeator: 1 hr
+        nTargetSpacing = 120;  // Makeator: 2 min
         nLastPOWBlock = 500;
         nMaturity = 30;
         nMasternodeCountDrift = 4;
@@ -322,7 +322,7 @@ public:
             genesis hash: 000002244385b8f9a32b98ab6b9eb0c0e30acfce4f76fb63fbd5b6ba3d4936cf
         */
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1530739517;
+        genesis.nTime = 1543043675;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 601665;
 
@@ -335,16 +335,16 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("chronos.tech", "testnet-seeds.chronos.tech"));             // Primary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("gig8.com", "testnet-seeds.chronos.gig8.com"));      // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("makeator.tech", "testnet-seeds.makeator.tech"));             // Primary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("gig8.com", "testnet-seeds.makeator.gig8.com"));      // Secondary DNS Seeder
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 88); // Testnet chronos addresses start with 'b''
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 125);  // Testnet chronos script addresses start with 's'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 110); // Testnet makeator addresses start with 'm''
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 125);  // Testnet makeator script addresses start with 's'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 137);     // Testnet private keys start with 'x'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet chronos BIP44 coin type is '1' (All coin's testnet default)
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x02).convert_to_container<std::vector<unsigned char> >();
+        // Testnet makeator BIP44 coin type is '1' (All coin's testnet default)
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x10)(0x05).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
@@ -380,17 +380,17 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
         strNetworkID = "regtest";
-        pchMessageStart[0] = 0xb2;
-        pchMessageStart[1] = 0x1d;
-        pchMessageStart[2] = 0x71;
-        pchMessageStart[3] = 0xd9;
+        pchMessageStart[0] = 0xb6;
+        pchMessageStart[1] = 0x4f;
+        pchMessageStart[2] = 0x87;
+        pchMessageStart[3] = 0xc6;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 60 * 60; // Chronos: 1 hour
-        nTargetSpacing = 120;        // Chronos: 2 min
+        nTargetTimespan = 60 * 60; // Makeator: 1 hour
+        nTargetSpacing = 120;        // Makeator: 2 min
         bnProofOfWorkLimit = ~uint256(0) >> 1;
 
         /*
@@ -412,7 +412,7 @@ public:
             nonce: 233847
             genesis hash: 000006ba3bf77872f9c4747ed7451309cfc89c85f6b74f19254868211162de4a
         */
-        genesis.nTime = 1530739517;
+        genesis.nTime = 1543043675;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 233847;
 

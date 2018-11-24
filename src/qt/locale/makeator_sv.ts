@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Chronos adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Makeator addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Makeator adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Chronos addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Chronos adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Makeator addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Makeator adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Chronos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRNs from being stolen by malware infecting your computer.</source>
-        <translation>Chronos kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina CRNs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Makeator will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MKTRs from being stolen by malware infecting your computer.</source>
+        <translation>Makeator kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina MKTRs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRN&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA CRN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MKTR&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA MKTR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Chronos Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Chronos adress som du vill kryptera med BIP 38.
+        <source>Enter a Makeator Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Makeator adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Chronos adressen för signera meddelandet med</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Makeator adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Chronos adress</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Makeator adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Chronos adressen meddelandet blev signerat med</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Makeator adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Chronos adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Makeator adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kärna</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Chronos address</source>
-        <translation>Skicka mynt till en Chronos adress</translation>
+        <source>Send coins to a Makeator address</source>
+        <translation>Skicka mynt till en Makeator adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and chronos: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och chronos: URls)</translation>
+        <source>Request payments (generates QR codes and makeator: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och makeator: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Chronos Core</source>
-        <translation>Om Chronos Kärnan</translation>
+        <source>&amp;About Makeator Core</source>
+        <translation>Om Makeator Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Chronos Core</source>
-        <translation>Visa information om Chronos Kärnan</translation>
+        <source>Show information about Makeator Core</source>
+        <translation>Visa information om Makeator Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Chronos</source>
-        <translation>Ändra konfigurationsval för Chronos</translation>
+        <source>Modify configuration options for Makeator</source>
+        <translation>Ändra konfigurationsval för Makeator</translation>
     </message>
     <message>
-        <source>Sign messages with your Chronos addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Chronos adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Makeator addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Makeator adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Chronos addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Chronos adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Makeator addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Makeator adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Chronos Core client</source>
-        <translation>Chronos kärn klient</translation>
+        <source>Makeator Core client</source>
+        <translation>Makeator kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kärna</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kärna</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Chronos address to sign the message with</source>
-        <translation>Chronos adressen för signera meddelandet med</translation>
+        <source>The Makeator address to sign the message with</source>
+        <translation>Makeator adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Chronos address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Chronos adress</translation>
+        <source>Sign the message to prove you own this Makeator address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Makeator adress</translation>
     </message>
     <message>
-        <source>The Chronos address the message was signed with</source>
-        <translation>Chronos adressen meddelandet blev signerat med</translation>
+        <source>The Makeator address the message was signed with</source>
+        <translation>Makeator adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Chronos address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Chronos adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Makeator address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Makeator adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Chronos Core</source>
-        <translation>Chronos Kärna</translation>
+        <source>Makeator Core</source>
+        <translation>Makeator Kärna</translation>
     </message>
     </context>
 <context>
@@ -1416,10 +1416,10 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>ZCrnControlDialog</name>
+    <name>ZMktrControlDialog</name>
     </context>
 <context>
-    <name>chronos-core</name>
+    <name>makeator-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

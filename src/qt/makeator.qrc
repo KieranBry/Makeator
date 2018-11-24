@@ -40,12 +40,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_chronos">res/icons/unit_chronos.png</file>
-        <file alias="unit_mchronos">res/icons/unit_mchronos.png</file>
-        <file alias="unit_uchronos">res/icons/unit_uchronos.png</file>
-        <file alias="unit_tchronos">res/icons/unit_tchronos.png</file>
-        <file alias="unit_tmchronos">res/icons/unit_tmchronos.png</file>
-        <file alias="unit_tuchronos">res/icons/unit_tuchronos.png</file>
+        <file alias="unit_makeator">res/icons/unit_makeator.png</file>
+        <file alias="unit_mmakeator">res/icons/unit_mmakeator.png</file>
+        <file alias="unit_umakeator">res/icons/unit_umakeator.png</file>
+        <file alias="unit_tmakeator">res/icons/unit_tmakeator.png</file>
+        <file alias="unit_tmmakeator">res/icons/unit_tmmakeator.png</file>
+        <file alias="unit_tumakeator">res/icons/unit_tumakeator.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -65,7 +65,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="chronos_logo_horizontal">res/images/chronos_logo_horizontal.png</file>
+        <file alias="makeator_logo_horizontal">res/images/makeator_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow_dark.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
         <file alias="downArrow_small_white">res/images/downArrow_small.png</file>

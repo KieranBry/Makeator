@@ -11,7 +11,7 @@
  **/
 
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 #include <stdexcept>
 #include <iostream>
 #include "Coin.h"

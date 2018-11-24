@@ -1,6 +1,6 @@
 [Protocol]
-exec=chronos-qt '%u'
-protocol=chronos
+exec=makeator-qt '%u'
+protocol=makeator
 input=none
 output=none
 helper=true

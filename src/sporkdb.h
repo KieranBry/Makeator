@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The Chronos developers
+// Copyright (c) 2018 The Makeator developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef CHRONOS_CSPORKDB_H
-#define CHRONOS_CSPORKDB_H
+#ifndef MAKEATOR_CSPORKDB_H
+#define MAKEATOR_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //CHRONOS_CSPORKDB_H
+#endif //MAKEATOR_CSPORKDB_H

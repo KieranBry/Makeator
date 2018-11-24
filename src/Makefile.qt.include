@@ -2,36 +2,36 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-bin_PROGRAMS += qt/chronos-qt
+bin_PROGRAMS += qt/makeator-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# chronos qt core #
+# makeator qt core #
 QT_TS = \
-  qt/locale/chronos_bg.ts \
-  qt/locale/chronos_ca.ts \
-  qt/locale/chronos_cs.ts \
-  qt/locale/chronos_da.ts \
-  qt/locale/chronos_de.ts \
-  qt/locale/chronos_en.ts \
-  qt/locale/chronos_en_US.ts \
-  qt/locale/chronos_es.ts \
-  qt/locale/chronos_fi.ts \
-  qt/locale/chronos_fr_FR.ts \
-  qt/locale/chronos_it.ts \
-  qt/locale/chronos_ja.ts \
-  qt/locale/chronos_ko_KR.ts \
-  qt/locale/chronos_nl.ts \
-  qt/locale/chronos_pl.ts \
-  qt/locale/chronos_pt.ts \
-  qt/locale/chronos_pt_BR.ts \
-  qt/locale/chronos_ro_RO.ts \
-  qt/locale/chronos_ru.ts \
-  qt/locale/chronos_sk.ts \
-  qt/locale/chronos_sv.ts \
-  qt/locale/chronos_tr.ts \
-  qt/locale/chronos_uk.ts \
-  qt/locale/chronos_zh_CN.ts \
-  qt/locale/chronos_zh_TW.ts
+  qt/locale/makeator_bg.ts \
+  qt/locale/makeator_ca.ts \
+  qt/locale/makeator_cs.ts \
+  qt/locale/makeator_da.ts \
+  qt/locale/makeator_de.ts \
+  qt/locale/makeator_en.ts \
+  qt/locale/makeator_en_US.ts \
+  qt/locale/makeator_es.ts \
+  qt/locale/makeator_fi.ts \
+  qt/locale/makeator_fr_FR.ts \
+  qt/locale/makeator_it.ts \
+  qt/locale/makeator_ja.ts \
+  qt/locale/makeator_ko_KR.ts \
+  qt/locale/makeator_nl.ts \
+  qt/locale/makeator_pl.ts \
+  qt/locale/makeator_pt.ts \
+  qt/locale/makeator_pt_BR.ts \
+  qt/locale/makeator_ro_RO.ts \
+  qt/locale/makeator_ru.ts \
+  qt/locale/makeator_sk.ts \
+  qt/locale/makeator_sv.ts \
+  qt/locale/makeator_tr.ts \
+  qt/locale/makeator_uk.ts \
+  qt/locale/makeator_zh_CN.ts \
+  qt/locale/makeator_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -57,7 +57,7 @@ QT_FORMS_UI = \
   qt/forms/sendcoinsentry.ui \
   qt/forms/signverifymessagedialog.ui \
   qt/forms/transactiondescdialog.ui \
-  qt/forms/zcrncontroldialog.ui
+  qt/forms/zmktrcontroldialog.ui
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -111,23 +111,23 @@ QT_MOC_CPP = \
   qt/moc_walletframe.cpp \
   qt/moc_walletmodel.cpp \
   qt/moc_walletview.cpp \
-  qt/moc_zcrncontroldialog.cpp
+  qt/moc_zmktrcontroldialog.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/chronos.moc \
+  qt/makeator.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_chronos.cpp
-QT_QRC = qt/chronos.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_chronos_locale.cpp
-QT_QRC_LOCALE = qt/chronos_locale.qrc
+QT_QRC_CPP = qt/qrc_makeator.cpp
+QT_QRC = qt/makeator.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_makeator_locale.cpp
+QT_QRC_LOCALE = qt/makeator_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -192,7 +192,7 @@ BITCOIN_QT_H = \
   qt/walletmodeltransaction.h \
   qt/walletview.h \
   qt/winshutdownmonitor.h \
-  qt/zcrncontroldialog.h
+  qt/zmktrcontroldialog.h
 
 RES_ICONS = \
   qt/res/icons/add.png \
@@ -252,12 +252,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_chronos.png \
-  qt/res/icons/unit_mchronos.png \
-  qt/res/icons/unit_uchronos.png \
-  qt/res/icons/unit_tchronos.png \
-  qt/res/icons/unit_tmchronos.png \
-  qt/res/icons/unit_tuchronos.png
+  qt/res/icons/unit_makeator.png \
+  qt/res/icons/unit_mmakeator.png \
+  qt/res/icons/unit_umakeator.png \
+  qt/res/icons/unit_tmakeator.png \
+  qt/res/icons/unit_tmmakeator.png \
+  qt/res/icons/unit_tumakeator.png
 
 BITCOIN_QT_CPP = \
   qt/bantablemodel.cpp \
@@ -323,7 +323,7 @@ BITCOIN_QT_CPP += \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
   qt/walletview.cpp \
-  qt/zcrncontroldialog.cpp
+  qt/zmktrcontroldialog.cpp
 
 endif
 
@@ -331,7 +331,7 @@ RES_IMAGES = \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
-  qt/res/images/chronos_logo_horizontal.png \
+  qt/res/images/makeator_logo_horizontal.png \
   qt/res/images/downArrow_dark.png \
   qt/res/images/downArrow_small_dark.png \
   qt/res/images/downArrow_small.png \
@@ -349,7 +349,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/chronos-qt-res.rc
+BITCOIN_RC = qt/res/makeator-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -371,72 +371,72 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_chronos_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_makeator_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# chronos-qt binary #
-qt_chronos_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# makeator-qt binary #
+qt_makeator_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
-qt_chronos_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+qt_makeator_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 qt_bitcoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_chronos_qt_SOURCES = qt/chronos.cpp
+qt_makeator_qt_SOURCES = qt/makeator.cpp
 if TARGET_DARWIN
-  qt_chronos_qt_SOURCES += $(BITCOIN_MM)
+  qt_makeator_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_chronos_qt_SOURCES += $(BITCOIN_RC)
+  qt_makeator_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_chronos_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_makeator_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_chronos_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_makeator_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_chronos_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_makeator_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_chronos_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_makeator_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_chronos_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_chronos_qt_LIBTOOLFLAGS = --tag CXX
+qt_makeator_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_makeator_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-$(srcdir)/qt/chronosstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+$(srcdir)/qt/makeatorstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) PACKAGE_NAME="$(PACKAGE_NAME)" $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: $(srcdir)/qt/chronosstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: $(srcdir)/qt/makeatorstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/chronos_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/makeator_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@cp -f $< $(@D)/temp_$(<F)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name chronos_locale $(@D)/temp_$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name makeator_locale $(@D)/temp_$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 	@rm $(@D)/temp_$(<F)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name chronos $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name makeator $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_chronos_locale.qrc
+CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_makeator_locale.qrc
 
 CLEANFILES += $(CLEAN_QT)
 
-chronos_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_chronos_qt_OBJECTS) qt/chronos-qt$(EXEEXT) $(LIBBITCOINQT)
+makeator_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_makeator_qt_OBJECTS) qt/makeator-qt$(EXEEXT) $(LIBBITCOINQT)
 
-chronos_qt : qt/chronos-qt$(EXEEXT)
+makeator_qt : qt/makeator-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

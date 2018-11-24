@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Chronos
-Comment=Chronos P2P Cryptocurrency
-Comment[fr]=Chronos, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Chronos, eşten eşe kriptografik sanal para birimi
-Exec=chronos-qt %u
+Name=Makeator
+Comment=Makeator P2P Cryptocurrency
+Comment[fr]=Makeator, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Makeator, eşten eşe kriptografik sanal para birimi
+Exec=makeator-qt %u
 Terminal=false
 Type=Application
-Icon=chronos128
-MimeType=x-scheme-handler/chronos;
+Icon=makeator128
+MimeType=x-scheme-handler/makeator;
 Categories=Office;Finance;

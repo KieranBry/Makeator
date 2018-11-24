@@ -6,7 +6,7 @@
 #define BITCOIN_QT_BITCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/chronos-config.h"
+#include "config/makeator-config.h"
 #endif
 
 #include "amount.h"

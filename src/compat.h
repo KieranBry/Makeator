@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/chronos-config.h"
+#include "config/makeator-config.h"
 #endif
 
 #ifdef WIN32
